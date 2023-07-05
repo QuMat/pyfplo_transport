@@ -5,7 +5,7 @@ import numpy as np
 from scipy.optimize import root_scalar
 from scipy.interpolate import interp1d
 
-from aux_func import interpola_n
+from aux_func import integral_n
 	
 def find_mu(T,Nobj=12,root_dir='.',mu0 = -0.4, mu1 = 0.37,Nmu=100,method='bisect'):
     """
@@ -36,10 +36,10 @@ def find_mu(T,Nobj=12,root_dir='.',mu0 = -0.4, mu1 = 0.37,Nmu=100,method='bisect
     nvsmu=interp1d(mus, ny, kind='linear')
 
 
-    def interpola_n(mu,nn):
+    def diff(mu,nn):
         return nvsmu(mu)-nn
 
-    solucion = root_scalar(interpola_n,args=(Nobj), bracket=[mu0,mu1], method='bisect')
+    solucion = root_scalar(diff,args=(Nobj), bracket=[mu0,mu1], method='bisect')
     print(T*11604,Nobj,solucion.root,file=open(name_c,'a'))
 
     return solucion.root

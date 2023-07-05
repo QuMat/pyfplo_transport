@@ -8,8 +8,7 @@ from scipy.interpolate import interp1d
 from scipy.optimize import curve_fit
 
 from update import update_progress
-from chemical_potential import integral_n
-from aux_func import read_data_TDF, read_data_mu, dfdE
+from aux_func import read_data_TDF, read_data_mu, dfdE, integral_n
 
 class transport_tensors():
     """
@@ -73,28 +72,10 @@ class transport_tensors():
             for i in range(3):
                 for j in range(3):
                     #print(i,j)
-                    name_a = self.root_dir + """/sigma_%(i)s_%(j)s.dat"""%locals()
+                    name_a = self.root_dir + """/sigma_vs_T_%(i)s_%(j)s.dat"""%locals()
                     if(i_T == 0):
                         print("""#T(K), mu, sigma_%(i)s_%(j)s, error en sigma_%(i)s_%(j)s"""%locals(), file=open(name_a, 'w'))
                     print(T*11604,mu,sigma[str(i)+str(j)][0],sigma[str(i)+str(j)][1],file=open(name_a, 'a'))
-        #build function that interpolates mu vs T
-        Tt,n,mu = read_data_mu(root_dir=self.root_dir)
-        self.mu_int=interp1d(Tt, mu, kind='linear')
-
-        i_T = 0
-        for T in Ts:
-            mu = self.mu_int(T)
-            sigma = self.compute_sigma(T,mu)
-            update_progress(i_T * 1. / len(Ts))
-            for i in range(3):
-                for j in range(3):
-                    #print(i,j)
-                    name_a = self.root_dir + """/sigma_%(i)s_%(j)s.dat"""%locals()
-                    if(i_T == 0):
-                        print("""#T(K), mu, sigma_%(i)s_%(j)s, error en sigma_%(i)s_%(j)s"""%locals(), file=open(name_a, 'w'))
-                    print(T*11604,mu,sigma[str(i)+str(j)][0],sigma[str(i)+str(j)][1],file=open(name_a, 'a'))
-
-            i_T += 1
 
     def compute_sigma_vs_mu(self,T,mus = [-0.06 + i * 0.005 for i in range(20)],write_dens=False):
         """

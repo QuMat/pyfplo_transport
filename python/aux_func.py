@@ -39,7 +39,7 @@ def integral_n(mu,T,root_dir="./"):
     DOS = interp1d(E, y, kind='linear')
 	
     def integrando(E,mu,T):
-	return fermi(E,mu,T)*DOS(E)
+        return fermi(E,mu,T)*DOS(E)
 
     return quad(integrando, E[0], E[-1], args=(mu, T),limit=100)
 
