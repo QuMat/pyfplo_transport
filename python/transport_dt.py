@@ -199,7 +199,7 @@ class bz_conductivity():
 
                     for i in range(3):
                         for j in range(3):
-                            average_fermi_velocity = np.sqrt(V[i][n]**2 + V[j][n]**2 )/2. * vel_to_angs_eV / (h_eVfs / (2* np.pi))
+                            average_fermi_velocity = np.sqrt(V[i][n]**2 + V[j][n]**2 )/ np.sqrt(2.) * vel_to_angs_eV / (h_eVfs / (2* np.pi))
                             
                             average_lat_param = 0.5 * (lat_params[i] + lat_params[j])
 
