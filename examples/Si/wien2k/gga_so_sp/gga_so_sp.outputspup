@@ -1,0 +1,41 @@
+### 2023-06-30  23:14:37
+
+ lattice is=F              1  atoms
+          a=   10.287107000000001     
+          b=   10.287107000000001     
+          c=   10.287107000000001     
+ SPAGH: Read band energy from case.output1
+ number of k-points read in case.vector=         101
+ smallest number eigenvalues at k=           1  (GAMMA       )
+          =          30
+ do not use irred. representations
+ number of k-points read in case.irrep=            0
+ lattice-type with triclinic basis assumed
+   0.61078   0.00000   0.00000
+  -0.00000   0.61078   0.00000
+  -0.00000  -0.00000   0.61078
+ transforming k-points to cartesian coordinates...
+ checking for lines...
+numbers of BRILLOUIN-zone lines found:  2
+numbers of breaks  0
+ line           1  is: GAMMA        to L           
+ xmax=   0.0000000000000000     
+ line           2  is: L            to W           
+ xmax=  0.52895319283668918     
+ reading case.insp
+   5.0000000000000000        3.0000000000000000     
+ Energy in eV
+   5.0000000000000000        3.0000000000000000     
+  init done
+           2
+  vertical lines done
+  EF-line done
+  EF-line done
+  horizontal lines and FERMI-energy done
+  x-axis labeling done
+  EF-labeling done
+  y-axis labeling done
+   0.00000   0.00000 M   10.00000 0.0 RL 0.0   15.00000 RL  -10.00000 0.0 RL 0.0  -15.00000
+ drawing energy-bands...
+ writing energy-bands on file
+  plotcl done

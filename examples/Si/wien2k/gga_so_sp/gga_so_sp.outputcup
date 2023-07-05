@@ -1,0 +1,58 @@
+ NORB, SHIFT IPRINT           4   0.0000000000000000                0
+1                                        Si1       
+
+     NOMBRE D ITERATIONS   1
+
+     PRECISIO N SUR LES ENERGIES 5.00E-09
+
+                       FONCTIONS D ONDE 1.00E-09
+
+                       POTENTIEL 1.00E-09
+
+ L INTEGRATION EST FAITE EN 781 POINTS LE PREMIER EST EGAL A  0.0001/14 ET LE PAS A  0.0127
+
+ DANS LE SOUS PROGRAMME RESLD LA PRECISION RELATIVE A OBTENIR SUR L ENERGIE EST  1.00E-13 ET LE NOMBRE D ESSAIS  30
+
+IDEP=  1     ICUT=  1     IPRAT=  0
+
+     ORBITALE     OCCUPATION     ENERGIE DE DEPART
+
+       1S             2.00         -4.9000000E+01
+       2S             2.00         -1.2250000E+01
+       2P*            2.00         -1.2250000E+01
+       2P             4.00         -1.2250000E+01
+0  LE PROCEDE DE PRATT EST UTILISE
+
+1                                        Si1       
+
+ ITER    DVMAX          R              VN-1             VN          DEMAX      DPMAX         PN-1             PN
+ eigenwert von            1 Zustand  -65.212332947864567     
+ eigenwert von            2 Zustand  -4.7197631830593760     
+ eigenwert von            3 Zustand  -3.1199628981908791     
+ eigenwert von            4 Zustand  -3.0962208962518396     
+    1   2.29E+00    7.717372E-01   -4.159759E+00   -6.454095E+00   7.47E-01  -1.00E+00    0.000000E+00    1.002893E+00
+ NOMBRE D ITERATIONS SUPERIEUR A   1
+1                                        Si1       
+
+            ENERGIE            (R4)              (R2)              (R)               (R-1)             (R-3)
+
+ Stress * vol        Spherical            Non-spher.1          Non-spher.2
+:COR__CORR__001:     7.592983919396E+02   2.939936339295E-05   3.074255611181E-05
+:COR__CORR__002:     0.000000000000E+00   0.000000000000E+00   0.000000000000E+00
+:COR__CORR__003:     0.000000000000E+00   0.000000000000E+00   0.000000000000E+00
+:COR__CORR__004:     0.000000000000E+00   0.000000000000E+00   0.000000000000E+00
+:COR__CORR__005:     7.592983919396E+02   2.939936339295E-05   3.074255611181E-05
+:COR__CORR__006:     0.000000000000E+00   0.000000000000E+00   0.000000000000E+00
+:COR__CORR__007:     0.000000000000E+00   0.000000000000E+00   0.000000000000E+00
+:COR__CORR__008:     0.000000000000E+00   0.000000000000E+00   0.000000000000E+00
+:COR__CORR__009:     7.592983919396E+02  -5.879872678590E-05  -6.148511222361E-05
+  1S     -6.5212333E+01     7.2072326E-04     1.6677460E-02     1.1127922E-01     1.3639484E+01
+  2S     -4.7197632E+00     2.7684696E-01     3.8606091E-01     5.6819191E-01     2.5804735E+00
+  2P*    -3.1199629E+00     2.9763092E-01     3.6397608E-01     5.3671307E-01     2.4677106E+00
+  2P     -3.0962209E+00     3.0214149E-01     3.6686240E-01     5.3894412E-01     2.4546148E+00     4.7853649E+01
+0     ET=-2.6133566E+02     EC= 3.0817618E+02     EE= 1.0866933E+02     EX=-1.7468028E+01     EN=-6.6071314E+02
+1                                        Si1       
+
+0                                               INTEGRALES DE RECOUVREMENT
+
+                                  2S   1S           0.0000000

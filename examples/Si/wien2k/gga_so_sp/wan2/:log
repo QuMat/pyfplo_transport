@@ -1,0 +1,18 @@
+>   (init_w2w) options: -so
+lun 03 jul 2023 10:54:06 -03> (x_lapw) kgen -fbz
+lun 03 jul 2023 10:54:23 -03> (x_lapw) kgen -fbz
+lun 03 jul 2023 10:56:01 -03> (x) findbands -so -all -15 15
+>   (init_w2w) options: -so
+lun 03 jul 2023 11:28:02 -03> (x_lapw) kgen -fbz
+lun 03 jul 2023 11:28:15 -03> (x_lapw) findbands -so -up -all -15 15
+lun 03 jul 2023 11:30:17 -03> (x_lapw) wannier90 -pp
+lun 03 jul 2023 11:30:26 -03> (x) wannier90 -so
+lun 03 jul 2023 11:31:43 -03> (x) lapw1 -up
+lun 03 jul 2023 11:32:24 -03> (x) lapw1 -dn
+lun 03 jul 2023 11:33:16 -03> (x) lapwso -up
+lun 03 jul 2023 11:34:07 -03> (x) w2w -up -so
+lun 03 jul 2023 11:35:00 -03> (x) w2w -dn -so
+lun 03 jul 2023 11:39:47 -03> (x) wannier90 -so
+lun 03 jul 2023 11:39:47 -03> (x) -f test3 w2waddsp
+lun 03 jul 2023 11:42:18 -03> (x) wannier90 -so
+lun 03 jul 2023 11:42:18 -03> (x) -f test3 w2waddsp

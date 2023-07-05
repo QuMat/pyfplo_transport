@@ -1,0 +1,2721 @@
+ *********** spin-orbit calculation **************
+  spin polarized case
+  Potential not averaged when calculating dV/dr
+ LMAX=           4  S-O eigenvectors and eigenvalues
+ Emin=           -10.0000 Emax=             1.9000
+ No value set for maximum number of eigenvalues (nume_max)
+   0.0   0.0 angle (M,z), angle (M,x) deg
+         177           0
+
+          ATOMIC PARAMETERS FOR   1  SPIN=1
+
+           ENERGY PARAMETERS ARE   0.19   0.19   0.19   0.19   0.19   0.19   0.19
+ for lo:
+               0.19     0.19   999.00   999.00
+             997.00   997.00   999.00   999.00
+             999.00   999.00   999.00   999.00
+
+           L     U(R)          U'(R)         DU/DE        DU'/DE      NORM-U'
+           0     0.4917469013E+00    -0.4498233513E+00    -0.1518263592E+00    -0.3695219856E+00     0.2021021156E-01
+           1    -0.6214788536E+00     0.1357625922E+00     0.1232175659E+00     0.3753733004E+00     0.1377809381E-01
+           2     0.7488303115E+00     0.3002551565E+00    -0.1050393758E+00    -0.3759838103E+00     0.1054956566E-01
+           3     0.9714606394E+00     0.1118232756E+01    -0.5433753944E-01    -0.3198940435E+00     0.2068417585E-02
+           4     0.1114923819E+01     0.1945118287E+01    -0.3769148819E-01    -0.2899834356E+00     0.8201837748E-03
+LO COEFFICIENT: l,A,B,C   0          0.90834     2.94199     0.00000
+LO COEFFICIENT: l,A,B,C   1          0.86050     4.34016     0.00000
+
+          ATOMIC PARAMETERS FOR   1  SPIN=2
+
+           ENERGY PARAMETERS ARE   0.19   0.19   0.19   0.19   0.19   0.19   0.19
+ for lo:
+               0.19     0.19   999.00   999.00
+             997.00   997.00   999.00   999.00
+             999.00   999.00   999.00   999.00
+
+           L     U(R)          U'(R)         DU/DE        DU'/DE      NORM-U'
+           0     0.4917456885E+00    -0.4498459841E+00    -0.1518253470E+00    -0.3695168368E+00     0.2021002599E-01
+           1    -0.6214766469E+00     0.1357900694E+00     0.1232169249E+00     0.3753693270E+00     0.1377798647E-01
+           2     0.7488277813E+00     0.3002244715E+00    -0.1050388864E+00    -0.3759805816E+00     0.1054948722E-01
+           3     0.9714572336E+00     0.1118195404E+01    -0.5433751994E-01    -0.3198930546E+00     0.2068412419E-02
+           4     0.1114920414E+01     0.1945078576E+01    -0.3769154661E-01    -0.2899830821E+00     0.8201846607E-03
+LO COEFFICIENT: l,A,B,C   0          0.90834     2.94200     0.00000
+LO COEFFICIENT: l,A,B,C   1          0.86050     4.34017     0.00000
+ -------------memory usage-----------------
+meigve:          0.367 MB
+abclm:          0.208 MB
+h_:          0.282 MB
+s_:          0.000 MB
+vec:          0.282 MB
+vect:          0.735 MB
+rest:          0.070 MB
+Totmem1=meigve+abclm+h_
+:TOTMEM1          0.927 MB
+Totmem2=meigve+vec+vect+h_
+:TOTMEM2          1.736 MB
+ -------------memory usage-----------------
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.010
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.017, DIAG=    0.011
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.006
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.000000  0.000000  0.000000   GAMMA     
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4830073   -0.4829174    0.3903128    0.3903622    0.3937648
+      0.3938040    0.3938564    0.3939185    0.5790068    0.5790171
+      0.5815287    0.5815289    0.5815634    0.5815851    0.6331062
+      0.6331277    0.9613537    0.9614034    0.9614792    0.9614872
+      0.9757436    0.9758754    1.2181172    1.2181308    1.2188386
+      1.2188602    1.2188667    1.2188709    1.5221623    1.5224147
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.023
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.009091 -0.009091  0.009091             
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4829280   -0.4828381    0.3898515    0.3899071    0.3931410
+      0.3932087    0.3936552    0.3937451    0.5792400    0.5792505
+      0.5817339    0.5817631    0.5817887    0.5818245    0.6336633
+      0.6336851    0.9610644    0.9611140    0.9611896    0.9611977
+      0.9760988    0.9762305    1.2181092    1.2181338    1.2190595
+      1.2190708    1.2193964    1.2194134    1.5227428    1.5229948
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.023
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.002
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.018182 -0.018182  0.018182             
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4826902   -0.4826003    0.3878891    0.3879967    0.3917912
+      0.3918479    0.3932388    0.3933280    0.5799066    0.5799179
+      0.5823404    0.5823767    0.5824762    0.5825174    0.6353666
+      0.6353893    0.9602062    0.9602555    0.9603305    0.9603387
+      0.9771617    0.9772930    1.2172053    1.2172363    1.2205708
+      1.2205870    1.2210238    1.2210405    1.5244749    1.5247258
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.023
+       CPTIME Hsoset=    0.016, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.027273 -0.027273  0.027273             
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4822940   -0.4822041    0.3837206    0.3838595    0.3906135
+      0.3906930    0.3925546    0.3926435    0.5809343    0.5809461
+      0.5833397    0.5833760    0.5834626    0.5835042    0.6382934
+      0.6383176    0.9588072    0.9588562    0.9589302    0.9589385
+      0.9789236    0.9790543    1.2155659    1.2155988    1.2232353
+      1.2232514    1.2237067    1.2237228    1.5273307    1.5275799
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.023
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.036364 -0.036364  0.036364             
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4817394   -0.4816495    0.3777102    0.3778543    0.3894886
+      0.3895743    0.3916126    0.3917012    0.5822271    0.5822379
+      0.5845501    0.5845854    0.5847203    0.5847589    0.6425195
+      0.6425460    0.9569120    0.9569604    0.9570331    0.9570418
+      0.9813700    0.9814998    1.2133188    1.2133539    1.2269279
+      1.2269433    1.2274032    1.2274185    1.5312664    1.5315132
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.010
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.011
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.045455 -0.045455  0.045455             
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4810268   -0.4809368    0.3702780    0.3704212    0.3882242
+      0.3883114    0.3904272    0.3905155    0.5835541    0.5835777
+      0.5857077    0.5857334    0.5864579    0.5864965    0.6480656
+      0.6480950    0.9545776    0.9546253    0.9546965    0.9547056
+      0.9844805    0.9846092    1.2105375    1.2105753    1.2315852
+      1.2315997    1.2320601    1.2320745    1.5362255    1.5364695
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.023
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.002
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.054545 -0.054545  0.054545             
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4801563   -0.4800663    0.3617090    0.3618497    0.3867733
+      0.3868607    0.3890157    0.3891036    0.5844011    0.5844488
+      0.5872627    0.5872947    0.5885323    0.5885712    0.6548696
+      0.6549024    0.9518700    0.9519171    0.9519864    0.9519962
+      0.9882283    0.9883556    1.2073006    1.2073412    1.2371437
+      1.2371570    1.2376164    1.2376296    1.5421425    1.5423833
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.010
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.011
+       CPTIME Hsoset=    0.016, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.063636 -0.063636  0.063636             
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4791282   -0.4790382    0.3522265    0.3523645    0.3851337
+      0.3852210    0.3873975    0.3874851    0.5845139    0.5845694
+      0.5894094    0.5894476    0.5909154    0.5909546    0.6627980
+      0.6628342    0.9488604    0.9489067    0.9489742    0.9489846
+      0.9925794    0.9927052    1.2036938    1.2037376    1.2435372
+      1.2435494    1.2440068    1.2440189    1.5489468    1.5491841
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.023
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.072727 -0.072727  0.072727             
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4779426   -0.4778525    0.3420192    0.3421543    0.3833175
+      0.3834045    0.3855934    0.3856805    0.5840574    0.5841131
+      0.5919728    0.5920126    0.5935769    0.5936165    0.6716879
+      0.6717273    0.9456220    0.9456676    0.9457331    0.9457444
+      0.9975026    0.9976268    1.1998672    1.1999142    1.2506994
+      1.2507104    1.2511654    1.2511763    1.5565767    1.5568103
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.023
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.002
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.081818 -0.081818  0.081818             
+      MATRIX SIZE=  122   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4766006   -0.4765104    0.3312242    0.3313565    0.3813419
+      0.3814284    0.3836245    0.3837112    0.5831403    0.5831945
+      0.5948317    0.5948721    0.5964844    0.5965243    0.6813495
+      0.6813915    0.9422279    0.9422728    0.9423362    0.9423483
+      1.0029268    1.0030491    1.1958023    1.1958525    1.2585653
+      1.2585752    1.2590277    1.2590374    1.5649392    1.5651689
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.023
+       CPTIME Hsoset=    0.016, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.002
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.090909 -0.090909  0.090909             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4751025   -0.4750122    0.3199691    0.3200989    0.3792259
+      0.3793120    0.3815121    0.3815983    0.5818577    0.5819100
+      0.5979229    0.5979637    0.5996035    0.5996438    0.6916329
+      0.6916773    0.9387490    0.9387932    0.9388547    0.9388676
+      1.0087994    1.0089198    1.1916650    1.1917184    1.2670733
+      1.2670821    1.2675319    1.2675405    1.5739711    1.5741970
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.023
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.100000 -0.100000  0.100000             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4734475   -0.4733571    0.3083725    0.3084998    0.3769898
+      0.3770755    0.3792776    0.3793634    0.5803407    0.5803912
+      0.6012013    0.6012424    0.6028999    0.6029405    0.7024449
+      0.7024911    0.9354870    0.9355304    0.9355901    0.9356041
+      1.0150471    1.0151653    1.1875924    1.1876489    1.2764760
+      1.2764836    1.2769302    1.2769377    1.5836053    1.5838272
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.023
+       CPTIME Hsoset=    0.016, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.109091 -0.109091  0.109091             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4716387   -0.4715482    0.2964715    0.2965966    0.3746512
+      0.3747365    0.3769395    0.3770248    0.5785110    0.5785597
+      0.6046239    0.6046653    0.6063349    0.6063759    0.7135980
+      0.7136456    0.9320260    0.9320688    0.9321267    0.9321416
+      1.0215669    1.0216830    1.1836723    1.1837317    1.2861134
+      1.2861202    1.2865641    1.2865707    1.5937694    1.5939873
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.023
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.118182 -0.118182  0.118182             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4696756   -0.4695850    0.2843535    0.2844765    0.3722293
+      0.3723142    0.3745174    0.3746022    0.5764803    0.5765274
+      0.6081530    0.6081946    0.6098727    0.6099140    0.7250394
+      0.7250879    0.9286766    0.9287189    0.9287751    0.9287910
+      1.0282412    1.0283553    1.1800723    1.1801344    1.2962310
+      1.2962371    1.2966783    1.2966844    1.6043975    1.6046114
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.010
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.011
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.127273 -0.127273  0.127273             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4675577   -0.4674669    0.2720852    0.2722062    0.3697609
+      0.3698454    0.3720480    0.3721325    0.5742866    0.5743320
+      0.6118371    0.6118790    0.6135625    0.6136041    0.7367050
+      0.7367541    0.9260045    0.9260462    0.9261011    0.9261183
+      1.0349189    1.0350308    1.1769846    1.1770490    1.3072393
+      1.3072449    1.3076834    1.3076890    1.6154359    1.6156456
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.022
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.023
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.136364 -0.136364  0.136364             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4652886   -0.4651977    0.2596820    0.2598012    0.3672212
+      0.3673052    0.3695074    0.3695914    0.5719615    0.5720055
+      0.6154618    0.6155039    0.6171908    0.6172326    0.7485233
+      0.7485726    0.9230433    0.9230847    0.9231382    0.9231569
+      1.0414114    1.0415213    1.1745770    1.1746437    1.3181942
+      1.3181997    1.3186355    1.3186410    1.6267834    1.6269889
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.010
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.011
+       CPTIME Hsoset=    0.016, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.002
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.145455 -0.145455  0.145455             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4628679   -0.4627769    0.2471955    0.2473129    0.3646463
+      0.3647299    0.3669315    0.3670152    0.5695327    0.5695753
+      0.6190774    0.6191197    0.6208078    0.6208498    0.7604546
+      0.7605038    0.9203620    0.9204035    0.9204558    0.9204763
+      1.0474927    1.0476007    1.1731078    1.1731763    1.3294992
+      1.3295048    1.3299380    1.3299436    1.6383734    1.6385744
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.024
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.154545 -0.154545  0.154545             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4602969   -0.4602057    0.2346564    0.2347722    0.3620496
+      0.3621329    0.3643340    0.3644173    0.5670238    0.5670652
+      0.6226461    0.6226885    0.6243757    0.6244179    0.7724608
+      0.7725096    0.9180109    0.9180526    0.9181042    0.9181270
+      1.0529082    1.0530144    1.1728409    1.1729109    1.3411150
+      1.3411210    1.3415516    1.3415576    1.6501114    1.6503075
+      1.8856475    1.8856829    1.8863465    1.8863815
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.011
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.012
+       CPTIME Hsoset=    0.016, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.163636 -0.163636  0.163636             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4575767   -0.4574854    0.2220912    0.2222054    0.3594435
+      0.3595264    0.3617271    0.3618100    0.5644555    0.5644956
+      0.6261308    0.6261733    0.6278572    0.6278995    0.7845106
+      0.7845587    0.9160376    0.9160798    0.9161314    0.9161567
+      1.0574031    1.0575077    1.1740373    1.1741084    1.3530030
+      1.3530095    1.3534377    1.3534443    1.6618805    1.6620711
+      1.8673992    1.8674351    1.8681071    1.8681426
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.172727 -0.172727  0.172727             
+      MATRIX SIZE=  124   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4547087   -0.4546172    0.2095223    0.2096350    0.3568388
+      0.3569215    0.3591217    0.3592044    0.5618457    0.5618847
+      0.6294953    0.6295378    0.6312160    0.6312583    0.7965775
+      0.7966247    0.9144870    0.9145299    0.9145826    0.9146109
+      1.0607704    1.0608737    1.1769079    1.1769796    1.3651230
+      1.3651303    1.3655563    1.3655635    1.6735274    1.6737115
+      1.8491945    1.8492307    1.8499099    1.8499457    1.8985535
+      1.8985650
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.181818 -0.181818  0.181818             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4516945   -0.4516029    0.1969693    0.1970806    0.3542455
+      0.3543279    0.3565280    0.3566104    0.5592103    0.5592484
+      0.6327049    0.6327474    0.6344174    0.6344597    0.8086383
+      0.8086844    0.9134010    0.9134447    0.9135004    0.9135316
+      1.0629035    1.0630059    1.1815609    1.1816328    1.3774323
+      1.3774404    1.3778647    1.3778726    1.6848420    1.6850182
+      1.8310892    1.8311257    1.8318110    1.8318470    1.8868886
+      1.8868945
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.190909 -0.190909  0.190909             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4485359   -0.4484440    0.1844497    0.1845596    0.3516726
+      0.3517547    0.3539548    0.3540369    0.5565636    0.5566006
+      0.6357276    0.6357700    0.6374290    0.6374713    0.8206721
+      0.8207169    0.9128180    0.9128625    0.9129237    0.9129576
+      1.0638234    1.0639251    1.1879759    1.1880475    1.3898831
+      1.3898920    1.3903150    1.3903237    1.6955279    1.6956939
+      1.8131412    1.8131778    1.8138681    1.8139042    1.8761670
+      1.8761690
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.200000 -0.200000  0.200000             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4452335   -0.4451414    0.1719787    0.1720874    0.3491651
+      0.3492470    0.3514475    0.3515293    0.5539326    0.5539688
+      0.6385852    0.6386275    0.6402732    0.6403152    0.8326996
+      0.8327429    0.9129743    0.9130194    0.9130892    0.9131254
+      1.0636943    1.0637955    1.1961564    1.1962273    1.4027040
+      1.4027138    1.4031350    1.4031447    1.7053798    1.7055325
+      1.7956745    1.7957112    1.7964079    1.7964442    1.8671190
+      1.8671318
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.209091 -0.209091  0.209091             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4417918   -0.4416995    0.1595702    0.1596776    0.3466546
+      0.3467362    0.3489370    0.3490187    0.5512985    0.5513339
+      0.6411537    0.6411958    0.6428250    0.6428669    0.8446167
+      0.8446582    0.9134878    0.9135333    0.9136149    0.9136530
+      1.0626572    1.0627582    1.2056215    1.2056914    1.4152789
+      1.4152898    1.4157110    1.4157218    1.7134266    1.7135615
+      1.7782259    1.7782625    1.7789613    1.7789974    1.8596528
+      1.8596813
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.025
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.218182 -0.218182  0.218182             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4382120   -0.4381195    0.1472368    0.1473431    0.3441858
+      0.3442672    0.3464686    0.3465500    0.5486865    0.5487212
+      0.6434601    0.6435020    0.6451121    0.6451537    0.8564435
+      0.8564830    0.9145929    0.9146387    0.9147352    0.9147747
+      1.0609594    1.0610603    1.2162955    1.2163642    1.4277882
+      1.4278002    1.4282226    1.4282344    1.7191451    1.7192571
+      1.7611605    1.7611968    1.7618953    1.7619312    1.8548497
+      1.8548989
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.013
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.227273 -0.227273  0.227273             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4344968   -0.4344040    0.1349903    0.1350954    0.3417645
+      0.3418458    0.3440478    0.3441290    0.5461054    0.5461394
+      0.6454890    0.6455306    0.6471189    0.6471603    0.8681535
+      0.8681909    0.9163084    0.9163543    0.9164686    0.9165093
+      1.0588103    1.0589110    1.2279716    1.2280389    1.4401204
+      1.4401337    1.4405585    1.4405716    1.7218530    1.7219386
+      1.7445950    1.7446308    1.7453244    1.7453599    1.8534012
+      1.8534748
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.236364 -0.236364  0.236364             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4306489   -0.4305559    0.1228416    0.1229456    0.3393957
+      0.3394768    0.3416796    0.3417607    0.5435632    0.5435965
+      0.6472306    0.6472718    0.6488361    0.6488771    0.8797141
+      0.8797489    0.9186467    0.9186927    0.9188274    0.9188689
+      1.0563979    1.0564982    1.2404678    1.2405336    1.4521252
+      1.4521400    1.4525694    1.4525839    1.7211825    1.7212409
+      1.7286965    1.7287317    1.7294005    1.7294351    1.8556749
+      1.8557735
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.011
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.012
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.245455 -0.245455  0.245455             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4266722   -0.4265789    0.1107834    0.1108864    0.3370571
+      0.3371380    0.3393419    0.3394228    0.5410627    0.5410955
+      0.6486808    0.6487217    0.6502598    0.6503005    0.8910821
+      0.8911140    0.9215578    0.9216039    0.9217608    0.9218030
+      1.0538475    1.0539473    1.2536246    1.2536888    1.4631415
+      1.4631582    1.4635960    1.4636123    1.7117335    1.7117668
+      1.7125101    1.7125432    1.7170374    1.7170725    1.8614654
+      1.8615858
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.254545 -0.254545  0.254545             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4225695   -0.4224759    0.0988616    0.0989635    0.3348061
+      0.3348869    0.3370918    0.3371726    0.5386185    0.5386508
+      0.6498420    0.6498825    0.6513927    0.6514330    0.9022040
+      0.9022324    0.9251497    0.9251957    0.9253766    0.9254194
+      1.0513980    1.0514968    1.2673153    1.2673780    1.4736954
+      1.4737142    1.4741636    1.4741820    1.6979478    1.6979797
+      1.6986867    1.6987184    1.7105979    1.7106147    1.8703026
+      1.8704395
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.024
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.263636 -0.263636  0.263636             
+      MATRIX SIZE=  126   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4183452   -0.4182513    0.0870755    0.0871764    0.3326214
+      0.3327020    0.3349082    0.3349889    0.5362808    0.5363126
+      0.6507248    0.6507649    0.6522459    0.6522858    0.9130750
+      0.9130994    0.9293828    0.9294289    0.9296347    0.9296779
+      1.0492696    1.0493667    1.2818341    1.2818955    1.4830358
+      1.4830573    1.4835237    1.4835447    1.6857993    1.6858293
+      1.6865166    1.6865463    1.7034179    1.7034206    1.8814882
+      1.8816368
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.024
+       CPTIME Hsoset=    0.004, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.272727 -0.272727  0.272727             
+      MATRIX SIZE=  126   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4140042   -0.4139100    0.0754189    0.0755188    0.3305022
+      0.3305827    0.3327903    0.3328708    0.5339557    0.5339869
+      0.6513354    0.6513750    0.6528259    0.6528654    0.9234375
+      0.9234568    0.9342092    0.9342553    0.9344861    0.9345297
+      1.0474162    1.0475107    1.2962184    1.2962785    1.4905711
+      1.4905957    1.4910864    1.4911105    1.6756459    1.6756732
+      1.6763392    1.6763663    1.6938967    1.6939038    1.8943347
+      1.8944912
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.024
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.281818 -0.281818  0.281818             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4095517   -0.4094571    0.0639101    0.0640091    0.3284533
+      0.3285337    0.3307427    0.3308231    0.5316979    0.5317288
+      0.6516938    0.6517330    0.6531534    0.6531924    0.9332377
+      0.9332507    0.9396319    0.9396781    0.9399328    0.9399767
+      1.0461220    1.0462127    1.3107831    1.3108420    1.4956982
+      1.4957265    1.4962498    1.4962775    1.6682222    1.6682463
+      1.6688864    1.6689104    1.6836722    1.6836865
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.290909 -0.290909  0.290909             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4049936   -0.4048986    0.0525593    0.0526573    0.3264770
+      0.3265573    0.3287678    0.3288482    0.5295115    0.5295421
+      0.6518202    0.6518590    0.6532488    0.6532873    0.9422966
+      0.9423016    0.9456337    0.9456800    0.9459547    0.9459989
+      1.0456021    1.0456871    1.3254067    1.3254645    1.4978048
+      1.4978371    1.4984002    1.4984318    1.6641308    1.6641514
+      1.6647710    1.6647917    1.6731401    1.6731598
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.300000 -0.300000  0.300000             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.4003366   -0.4002413    0.0413770    0.0414741    0.3245755
+      0.3246557    0.3268679    0.3269481    0.5274002    0.5274304
+      0.6517371    0.6517755    0.6531350    0.6531731    0.9503926
+      0.9503978    0.9521948    0.9522410    0.9525293    0.9525737
+      1.0461007    1.0461782    1.3399505    1.3400074    1.4965146
+      1.4965506    1.4971571    1.4971925    1.6623127    1.6623318
+      1.6640508    1.6640644    1.6643726    1.6643900
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.309091 -0.309091  0.309091             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3955887   -0.3954929    0.0303745    0.0304705    0.3227506
+      0.3228308    0.3250445    0.3251247    0.5253672    0.5253970
+      0.6514687    0.6515066    0.6528365    0.6528742    0.9573160
+      0.9573329    0.9592716    0.9593181    0.9596317    0.9596765
+      1.0478686    1.0479365    1.3542488    1.3543049    1.4918678
+      1.4919071    1.4925552    1.4925938    1.6522359    1.6522637
+      1.6671622    1.6671774    1.6676543    1.6676692
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.318182 -0.318182  0.318182             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3907585   -0.3906622    0.0195635    0.0196587    0.3210040
+      0.3210841    0.3232995    0.3233796    0.5234152    0.5234448
+      0.6510396    0.6510771    0.6523782    0.6524155    0.9628839
+      0.9629139    0.9668408    0.9668876    0.9672367    0.9672820
+      1.0511103    1.0511670    1.3680953    1.3681507    1.4842967
+      1.4843383    1.4850227    1.4850637    1.6425190    1.6425499
+      1.6737180    1.6737313    1.6741867    1.6741997
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.327273 -0.327273  0.327273             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3858562   -0.3857595    0.0089573    0.0090515    0.3193370
+      0.3194170    0.3216341    0.3217142    0.5215469    0.5215762
+      0.6504748    0.6505119    0.6517853    0.6518221    0.9670022
+      0.9670460    0.9748940    0.9749410    0.9753186    0.9753642
+      1.0559163    1.0559614    1.3812285    1.3812832    1.4744211
+      1.4744644    1.4751781    1.4752208    1.6336631    1.6336965
+      1.6829044    1.6829165    1.6833487    1.6833606
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.336364 -0.336364  0.336364             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3808936   -0.3807964   -0.0014300   -0.0013367    0.3177508
+      0.3178308    0.3200496    0.3201296    0.5197644    0.5197936
+      0.6497985    0.6498352    0.6510822    0.6511187    0.9697448
+      0.9698016    0.9834034    0.9834505    0.9838517    0.9838975
+      1.0622253    1.0622596    1.3933176    1.3933713    1.4628473
+      1.4628917    1.4636285    1.4636723    1.6260419    1.6260773
+      1.6941066    1.6941182    1.6945308    1.6945421
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.345455 -0.345455  0.345455             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3758841   -0.3757864   -0.0115825   -0.0114902    0.3162466
+      0.3163265    0.3185470    0.3186270    0.5180699    0.5180989
+      0.6490342    0.6490706    0.6502926    0.6503287    0.9713086
+      0.9713766    0.9923418    0.9923891    0.9928106    0.9928568
+      1.0698490    1.0698741    1.4039563    1.4040087    1.4500708
+      1.4501159    1.4508702    1.4509147    1.6200895    1.6201262
+      1.7068257    1.7068369    1.7072339    1.7072447
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.012
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.354545 -0.354545  0.354545             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3708433   -0.3707450   -0.0214825   -0.0213911    0.3148251
+      0.3149051    0.3171272    0.3172071    0.5164651    0.5164939
+      0.6482043    0.6482403    0.6494388    0.6494745    0.9719454
+      0.9720227    1.0016842    1.0017317    1.0021711    1.0022175
+      1.0785393    1.0785572    1.4126801    1.4127304    1.4364650
+      1.4365106    1.4372750    1.4373199    1.6162893    1.6163262
+      1.7206873    1.7206984    1.7210827    1.7210934
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.363636 -0.363636  0.363636             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3657893   -0.3656905   -0.0311099   -0.0310194    0.3134873
+      0.3135672    0.3157910    0.3158709    0.5149516    0.5149803
+      0.6473294    0.6473651    0.6485416    0.6485770    0.9719008
+      0.9719855    1.0114067    1.0114544    1.0119092    1.0119559
+      1.0880500    1.0880627    1.4189623    1.4190091    1.4223685
+      1.4224144    1.4231115    1.4231568    1.6151147    1.6151507
+      1.7354203    1.7354314    1.7358051    1.7358158
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.372727 -0.372727  0.372727             
+      MATRIX SIZE=  136   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3607432   -0.3606438   -0.0404418   -0.0403523    0.3122337
+      0.3123136    0.3145389    0.3146188    0.5135309    0.5135593
+      0.6464290    0.6464644    0.6476205    0.6476555    0.9713821
+      0.9714725    1.0214863    1.0215342    1.0220021    1.0220490
+      1.0981695    1.0981783    1.4076999    1.4077458    1.4085721
+      1.4086175    1.4227358    1.4227787    1.6169225    1.6169562
+      1.7508288    1.7508400    1.7512047    1.7512154
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.381818 -0.381818  0.381818             
+      MATRIX SIZE=  134   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3557294   -0.3556293   -0.0494523   -0.0493637    0.3110650
+      0.3111448    0.3133717    0.3134515    0.5122041    0.5122324
+      0.6455208    0.6455559    0.6466931    0.6467278    0.9705510
+      0.9706459    1.0319007    1.0319489    1.0324274    1.0324746
+      1.1087265    1.1087328    1.3929225    1.3929685    1.3937967
+      1.3938422    1.4235646    1.4236022    1.6218408    1.6218711
+      1.7667695    1.7667807    1.7671375    1.7671483
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.390909 -0.390909  0.390909             
+      MATRIX SIZE=  134   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3507763   -0.3506756   -0.0581114   -0.0580238    0.3099815
+      0.3100614    0.3122896    0.3123695    0.5109723    0.5110005
+      0.6446208    0.6446557    0.6457755    0.6458100    0.9695291
+      0.9696276    1.0426279    1.0426763    1.0431628    1.0432102
+      1.1195846    1.1195892    1.3780051    1.3780511    1.3788888
+      1.3789342    1.4217433    1.4217751    1.6297279    1.6297541
+      1.7831349    1.7831463    1.7834958    1.7835067
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.400000 -0.400000  0.400000             
+      MATRIX SIZE=  134   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3459172   -0.3458157   -0.0663974   -0.0663107    0.3089725
+      0.3090523    0.3112823    0.3113621    0.5098120    0.5098401
+      0.6437034    0.6437380    0.6448416    0.6448759    0.9683680
+      0.9684691    1.0536301    1.0536788    1.0541707    1.0542185
+      1.1305877    1.1305913    1.3616854    1.3617310    1.3625788
+      1.3626238    1.4175558    1.4175817    1.6396549    1.6396767
+      1.7997499    1.7997614    1.8001040    1.8001149
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.409091 -0.409091  0.409091             
+      MATRIX SIZE=  134   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3411897   -0.3410875   -0.0742457   -0.0741599    0.3080607
+      0.3081406    0.3103718    0.3104516    0.5087730    0.5088010
+      0.6428609    0.6428953    0.6439846    0.6440187    0.9672084
+      0.9673117    1.0649155    1.0649644    1.0654582    1.0655063
+      1.1417257    1.1417288    1.3467197    1.3467652    1.3476264
+      1.3476712    1.4116185    1.4116390    1.6523689    1.6523868
+      1.8167096    1.8167211    1.8170571    1.8170681
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.418182 -0.418182  0.418182             
+      MATRIX SIZE=  134   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3366413   -0.3365383   -0.0816242   -0.0815394    0.3072352
+      0.3073151    0.3095475    0.3096273    0.5076645    0.5076927
+      0.6420656    0.6420998    0.6431763    0.6432102    0.9660546
+      0.9661597    1.0764119    1.0764612    1.0769533    1.0770017
+      1.1527922    1.1527953    1.3317827    1.3318279    1.3327040
+      1.3327487    1.4041577    1.4041728    1.6661987    1.6662122
+      1.8338069    1.8338185    1.8341478    1.8341588
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.427273 -0.427273  0.427273             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3323151   -0.3322114   -0.0884820   -0.0883982    0.3064963
+      0.3065761    0.3088097    0.3088895    0.5068163    0.5068445
+      0.6413285    0.6413625    0.6424276    0.6424613    0.9649634
+      0.9650701    1.0881483    1.0881980    1.0886836    1.0887324
+      1.1638158    1.1638192    1.3169927    1.3170377    1.3179319
+      1.3179763    1.3959457    1.3959564    1.6820102    1.6820206
+      1.8511417    1.8511534    1.8514760    1.8514870
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.436364 -0.436364  0.436364             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3282704   -0.3281659   -0.0947624   -0.0946795    0.3058441
+      0.3059239    0.3081584    0.3082382    0.5060668    0.5060949
+      0.6406581    0.6406920    0.6417472    0.6417807    0.9639524
+      0.9640603    1.1000569    1.1001070    1.1005804    1.1006297
+      1.1746198    1.1746240    1.3023692    1.3024138    1.3033297
+      1.3033738    1.3871967    1.3872033    1.6988764    1.6988840
+      1.8685959    1.8686076    1.8689233    1.8689343
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.445455 -0.445455  0.445455             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3245686   -0.3244634   -0.1004032   -0.1003211    0.3052787
+      0.3053585    0.3075939    0.3076737    0.5054163    0.5054444
+      0.6400623    0.6400961    0.6411427    0.6411761    0.9630427
+      0.9631515    1.1120839    1.1121345    1.1125880    1.1126378
+      1.1850587    1.1850639    1.2879764    1.2880205    1.2889638
+      1.2890074    1.3782514    1.3782544    1.7165531    1.7165581
+      1.8861231    1.8861348    1.8864432    1.8864541
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.454545 -0.454545  0.454545             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3212754   -0.3211695   -0.1053381   -0.1052568    0.3048003
+      0.3048801    0.3071162    0.3071960    0.5048654    0.5048934
+      0.6395475    0.6395811    0.6406206    0.6406539    0.9622503
+      0.9623599    1.1241461    1.1241974    1.1246203    1.1246706
+      1.1949385    1.1949450    1.2739054    1.2739489    1.2749276
+      1.2749706    1.3694470    1.3694473    1.7348336    1.7348363
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.024
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.463636 -0.463636  0.463636             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3184575   -0.3183510   -0.1094978   -0.1094173    0.3044374
+      0.3045172    0.3067542    0.3068340    0.5044249    0.5044529
+      0.6391405    0.6391741    0.6402073    0.6402405    0.9615886
+      0.9616989    1.1371238    1.1371759    1.1375564    1.1376076
+      1.2040755    1.2040835    1.2605819    1.2606245    1.2616466
+      1.2616887    1.3611546    1.3611580    1.7535178    1.7535179
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.472727 -0.472727  0.472727             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3161823   -0.3160752   -0.1128188   -0.1127388    0.3041321
+      0.3042118    0.3064493    0.3065291    0.5040736    0.5041016
+      0.6388020    0.6388355    0.6398642    0.6398973    0.9610646
+      0.9611753    1.1487606    1.1488138    1.1491241    1.1491762
+      1.2119428    1.2119524    1.2476627    1.2477040    1.2487893
+      1.2488302    1.3538002    1.3538064    1.7723435    1.7723465
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.012
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.481818 -0.481818  0.481818             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3145083   -0.3144008   -0.1152400   -0.1151605    0.3039139
+      0.3039937    0.3062315    0.3063113    0.5038225    0.5038505
+      0.6385578    0.6385912    0.6396168    0.6396498    0.9606859
+      0.9607969    1.1594465    1.1595005    1.1597070    1.1597596
+      1.2181364    1.2181476    1.2360870    1.2361264    1.2372857
+      1.2373248    1.3479103    1.3479188    1.7908059    1.7908132
+      1.8848400    1.8848527
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.490909 -0.490909  0.490909             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3134831   -0.3133754   -0.1167136   -0.1166344    0.3037830
+      0.3038628    0.3061008    0.3061806    0.5036718    0.5036998
+      0.6384104    0.6384438    0.6394674    0.6395004    0.9604569
+      0.9605681    1.1678216    1.1678698    1.1679604    1.1680058
+      1.2219868    1.2220000    1.2273517    1.2273875    1.2284919
+      1.2285286    1.3440504    1.3440606    1.8073335    1.8073483
+      1.8675188    1.8675388
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.013
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.500000 -0.500000  0.500000   L         
+      MATRIX SIZE=  136   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3131378   -0.3130300   -0.1172084   -0.1171293    0.3037394
+      0.3038192    0.3060573    0.3061371    0.5036216    0.5036496
+      0.6383610    0.6383944    0.6394174    0.6394504    0.9603803
+      0.9604916    1.1712370    1.1712635    1.1713414    1.1713608
+      1.2223612    1.2223849    1.2247763    1.2247995    1.2249647
+      1.2250000    1.3426993    1.3427101    1.8156229    1.8156452
+      1.8589618    1.8589893
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.004
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.511111 -0.500000  0.488889             
+      MATRIX SIZE=  136   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3130587   -0.3129509   -0.1171672   -0.1170881    0.3032388
+      0.3033243    0.3056342    0.3057186    0.5043411    0.5043695
+      0.6383967    0.6384375    0.6395465    0.6395804    0.9607408
+      0.9608517    1.1677852    1.1678877    1.1702244    1.1703133
+      1.2233163    1.2233333    1.2253091    1.2253414    1.2277563
+      1.2277739    1.3433588    1.3433699    1.8155285    1.8155508
+      1.8587751    1.8588024
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.522222 -0.500000  0.477778             
+      MATRIX SIZE=  134   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3128216   -0.3127138   -0.1170441   -0.1169649    0.3013844
+      0.3014990    0.3047440    0.3048575    0.5064545    0.5064840
+      0.6381817    0.6382371    0.6402664    0.6403113    0.9618101
+      0.9619199    1.1592968    1.1593888    1.1673075    1.1673947
+      1.2239839    1.2240118    1.2267553    1.2268114    1.2363828
+      1.2364081    1.3453210    1.3453329    1.8152426    1.8152649
+      1.8582071    1.8582338
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.533333 -0.500000  0.466667             
+      MATRIX SIZE=  134   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3124266   -0.3123187   -0.1168398   -0.1167605    0.2979372
+      0.2980661    0.3037740    0.3039033    0.5098350    0.5098663
+      0.6375835    0.6376418    0.6417602    0.6418087    0.9635513
+      0.9636592    1.1484166    1.1485003    1.1629306    1.1630154
+      1.2244067    1.2244408    1.2291208    1.2291838    1.2478383
+      1.2478714    1.3485376    1.3485510    1.8147579    1.8147803
+      1.8572342    1.8572598
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.544444 -0.500000  0.455556             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3118739   -0.3117661   -0.1165561   -0.1164766    0.2931348
+      0.2932656    0.3026250    0.3027585    0.5142946    0.5143280
+      0.6367004    0.6367583    0.6439657    0.6440152    0.9658994
+      0.9660046    1.1359365    1.1360146    1.1574143    1.1574963
+      1.2248310    1.2248667    1.2319235    1.2319879    1.2605537
+      1.2605925    1.3529315    1.3529467    1.8140620    1.8140842
+      1.8558109    1.8558349
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.555556 -0.500000  0.444444             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3111638   -0.3110559   -0.1161949   -0.1161152    0.2872160
+      0.2873454    0.3012489    0.3013833    0.5196179    0.5196535
+      0.6356068    0.6356636    0.6468877    0.6469379    0.9687643
+      0.9688661    1.1230453    1.1231192    1.1511141    1.1511930
+      1.2253269    1.2253635    1.2348862    1.2349505    1.2738582
+      1.2739009    1.3584048    1.3584221    1.8131389    1.8131611
+      1.8538848    1.8539068
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.566667 -0.500000  0.433333             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3102959   -0.3101880   -0.1157589   -0.1156790    0.2804365
+      0.2805635    0.2996010    0.2997353    0.5255759    0.5256138
+      0.6343443    0.6343995    0.6505734    0.6506242    0.9720323
+      0.9721297    1.1105109    1.1105817    1.1448990    1.1449745
+      1.2259282    1.2259652    1.2378597    1.2379231    1.2877538
+      1.2877998    1.3648434    1.3648629    1.8119692    1.8119913
+      1.8514281    1.8514476
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.577778 -0.500000  0.422222             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3092709   -0.3091630   -0.1152519   -0.1151716    0.2729567
+      0.2730808    0.2976712    0.2978051    0.5319502    0.5319901
+      0.6329581    0.6330116    0.6550594    0.6551110    0.9755474
+      0.9756396    1.0979095    1.0979779    1.1387080    1.1387798
+      1.2266287    1.2266661    1.2407745    1.2408366    1.3019627
+      1.3020112    1.3721277    1.3721496    1.8105305    1.8105526
+      1.8483729    1.8483897
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.012
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.588889 -0.500000  0.411111             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3080893   -0.3079813   -0.1146780   -0.1145973    0.2649338
+      0.2650552    0.2954569    0.2955901    0.5385439    0.5385855
+      0.6314942    0.6315460    0.6603916    0.6604440    0.9791190
+      0.9792048    1.0853161    1.0853825    1.1328082    1.1328756
+      1.2274305    1.2274683    1.2436180    1.2436784    1.3164062
+      1.3164568    1.3801397    1.3801640    1.8087998    1.8088216
+      1.8446758    1.8446896
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.024
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.600000 -0.500000  0.400000             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3067513   -0.3066433   -0.1140423   -0.1139613    0.2565014
+      0.2566201    0.2929586    0.2930909    0.5451891    0.5452323
+      0.6299985    0.6300484    0.6666093    0.6666627    0.9825150
+      0.9825931    1.0727755    1.0728403    1.1274697    1.1275320
+      1.2283341    1.2283722    1.2464073    1.2464658    1.3310356
+      1.3310881    1.3887689    1.3887954    1.8067543    1.8067759
+      1.8403103    1.8403211
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.013
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.611111 -0.500000  0.388889             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3052576   -0.3051495   -0.1133510   -0.1132694    0.2477721
+      0.2478882    0.2901790    0.2903104    0.5517525    0.5517969
+      0.6285151    0.6285633    0.6737387    0.6737931    0.9854634
+      0.9855324    1.0603164    1.0603798    1.1229760    1.1230320
+      1.2293391    1.2293777    1.2491752    1.2492314    1.3458183
+      1.3458724    1.3979151    1.3979438    1.8043743    1.8043955
+      1.8352719    1.8352797
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.622222 -0.500000  0.377778             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3036090   -0.3035009   -0.1126111   -0.1125290    0.2388371
+      0.2389507    0.2871169    0.2872471    0.5581294    0.5581747
+      0.6270713    0.6271178    0.6817876    0.6818432    0.9876587
+      0.9877170    1.0479549    1.0480171    1.1191301    1.1191790
+      1.2304091    1.2304480    1.2517412    1.2517946    1.3607296
+      1.3607851    1.4074766    1.4075073    1.8016435    1.8016644
+      1.8295335    1.8295386
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.633333 -0.500000  0.366667             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.3018056   -0.3016973   -0.1118301   -0.1117475    0.2297820
+      0.2298932    0.2837894    0.2839184    0.5642754    0.5643214
+      0.6257354    0.6257804    0.6907427    0.6907995    0.9888169
+      0.9888632    1.0357115    1.0357726    1.1171836    1.1172243
+      1.2316150    1.2316544    1.2545848    1.2546355    1.3757518
+      1.3758087    1.4173988    1.4174315    1.7985553    1.7985757
+      1.8232098    1.8232124
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.644444 -0.500000  0.355556             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2998482   -0.2997400   -0.1110177   -0.1109343    0.2206713
+      0.2207803    0.2801981    0.2803257    0.5701556    0.5702021
+      0.6245281    0.6245716    0.7005702    0.7006283    0.9886986
+      0.9887321    1.0235930    1.0236532    1.1168413    1.1168732
+      1.2329197    1.2329596    1.2575422    1.2575900    1.3908685
+      1.3909267    1.4276066    1.4276409    1.7951076    1.7951276
+      1.8163067    1.8163074
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.655556 -0.500000  0.344444             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2977379   -0.2976295   -0.1101841   -0.1101001    0.2115633
+      0.2116701    0.2763514    0.2764776    0.5757700    0.5758168
+      0.6234805    0.6235227    0.7112197    0.7112790    0.9871763
+      0.9871970    1.0116077    1.0116671    1.1181844    1.1182080
+      1.2343220    1.2343624    1.2606629    1.2607074    1.4060652
+      1.4061245    1.4380432    1.4380791    1.7913084    1.7913279
+      1.8088662    1.8088668
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.666667 -0.500000  0.333333             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2954754   -0.2953669   -0.1093415   -0.1092567    0.2025093
+      0.2026140    0.2722596    0.2723842    0.5811379    0.5811849
+      0.6226198    0.6226608    0.7226292    0.7226898    0.9842543
+      0.9842632    0.9997633    0.9998219    1.1211515    1.1211681
+      1.2358207    1.2358617    1.2639995    1.2640404    1.4213282
+      1.4213886    1.4486597    1.4486970    1.7871742    1.7871931
+      1.8009224    1.8009238
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.677778 -0.500000  0.322222             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2930616   -0.2929531   -0.1085034   -0.1084176    0.1935553
+      0.1936581    0.2679339    0.2680570    0.5862908    0.5863380
+      0.6219689    0.6220089    0.7347311    0.7347928    0.9800458
+      0.9800474    0.9880705    0.9881281    1.1255573    1.1255688
+      1.2374144    1.2374561    1.2676098    1.2676466    1.4366437
+      1.4367052    1.4594135    1.4594522    1.7827290    1.7827473
+      1.7924944    1.7924958
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.023
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.024
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.688889 -0.500000  0.311111             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2904972   -0.2903886   -0.1076761   -0.1075894    0.1847517
+      0.1848525    0.2633881    0.2635094    0.5913225    0.5913697
+      0.6215489    0.6215880    0.7474610    0.7475238    0.9746781
+      0.9746880    0.9766386    0.9766924    1.1311989    1.1312074
+      1.2391510    1.2391933    1.2716891    1.2717210    1.4524749
+      1.4525374    1.4708890    1.4709293    1.7782579    1.7782752
+      1.7836826    1.7836831
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.700000 -0.500000  0.300000             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2877845   -0.2876758   -0.1068943   -0.1068066    0.1761209
+      0.1762198    0.2586339    0.2587535    0.5961588    0.5962059
+      0.6213711    0.6214094    0.7607434    0.7608073    0.9650514
+      0.9651069    0.9686836    0.9687008    1.1376613    1.1376691
+      1.2409301    1.2409731    1.2760417    1.2760685    1.4678573
+      1.4679207    1.4818227    1.4818640    1.7732558    1.7732725
+      1.7742408    1.7742421    1.8910320    1.8910793
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.711111 -0.500000  0.288889             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2849257   -0.2848169   -0.1061698   -0.1060810    0.1676928
+      0.1677898    0.2536589    0.2537767    0.6008797    0.6009269
+      0.6213219    0.6213596    0.7745136    0.7745785    0.9537796
+      0.9538353    0.9617248    0.9617481    1.1446932    1.1447023
+      1.2426961    1.2427399    1.2807366    1.2807576    1.4831531
+      1.4832172    1.4925791    1.4926214    1.7641416    1.7641453
+      1.7679648    1.7679811    1.8748918    1.8749367
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.013
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.722222 -0.500000  0.277778             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2819193   -0.2818104   -0.1055208   -0.1054309    0.1595382
+      0.1596334    0.2485333    0.2486492    0.6055464    0.6055935
+      0.6216663    0.6217035    0.7887329    0.7887986    0.9426958
+      0.9427511    0.9543169    0.9543448    1.1520960    1.1521080
+      1.2446516    1.2446962    1.2861424    1.2861571    1.4985180
+      1.4985827    1.5035452    1.5035881    1.7535100    1.7535176
+      1.7626008    1.7626167    1.8599205    1.8599622
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.733333 -0.500000  0.266667             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2787683   -0.2786592   -0.1049719   -0.1048806    0.1516765
+      0.1517699    0.2432465    0.2433606    0.6101751    0.6102222
+      0.6222829    0.6223198    0.8033409    0.8034074    0.9317699
+      0.9318247    0.9465154    0.9465470    1.1595970    1.1596134
+      1.2466958    1.2467413    1.2922008    1.2922086    1.5137493
+      1.5138043    1.5145943    1.5146320    1.7421668    1.7421792
+      1.7571178    1.7571333    1.8454377    1.8454751
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.744444 -0.500000  0.255556             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2754744   -0.2753652   -0.1045482   -0.1044556    0.1441443
+      0.1442358    0.2378155    0.2379276    0.6147903    0.6148373
+      0.6231770    0.6232136    0.8182911    0.8183583    0.9210093
+      0.9210637    0.9384216    0.9384562    1.1669865    1.1670085
+      1.2488281    1.2488745    1.2989925    1.2989931    1.5253005
+      1.5253448    1.5291914    1.5292573    1.7300399    1.7300583
+      1.7515585    1.7515734    1.8316599    1.8316923
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.755556 -0.500000  0.244444             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2720395   -0.2719302   -0.1042767   -0.1041828    0.1369781
+      0.1370679    0.2322570    0.2323672    0.6194086    0.6194553
+      0.6243560    0.6243923    0.8335395    0.8336072    0.9104217
+      0.9104756    0.9301167    0.9301535    1.1740866    1.1741147
+      1.2510481    1.2510955    1.3065796    1.3065866    1.5360807
+      1.5361259    1.5443827    1.5444492    1.7170903    1.7171152
+      1.7459668    1.7459813    1.8187651    1.8187916
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.766667 -0.500000  0.233333             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2684657   -0.2683563   -0.1041861   -0.1040907    0.1302147
+      0.1303026    0.2265884    0.2266966    0.6240070    0.6240509
+      0.6258633    0.6258972    0.8490376    0.8491058    0.9000219
+      0.9000756    0.9216644    0.9217031    1.1807541    1.1807888
+      1.2533559    1.2534043    1.3150171    1.3150315    1.5466954
+      1.5467412    1.5594651    1.5595319    1.7033395    1.7033711
+      1.7403900    1.7404037    1.8068750    1.8068955
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.777778 -0.500000  0.222222             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2647553   -0.2646457   -0.1043058   -0.1042089    0.1238904
+      0.1239765    0.2208269    0.2209332    0.6273542    0.6273871
+      0.6289402    0.6289829    0.8646912    0.8647592    0.8898737
+      0.8899276    0.9131159    0.9131562    1.1868834    1.1869245
+      1.2557523    1.2558017    1.3243267    1.3243484    1.5570655
+      1.5571119    1.5743868    1.5744533    1.6888968    1.6889350
+      1.7348808    1.7348934    1.7960479    1.7960626
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.788889 -0.500000  0.211111             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2609080   -0.2607983   -0.1046646   -0.1045661    0.1180509
+      0.1181353    0.2149662    0.2150707    0.6294807    0.6295170
+      0.6336244    0.6336709    0.8777678    0.8778198    0.8828564
+      0.8829262    0.9045418    0.9045833    1.1924256    1.1924731
+      1.2582435    1.2582939    1.3345498    1.3345784    1.5671041
+      1.5671512    1.5896550    1.5897203    1.6731461    1.6731904
+      1.7296660    1.7296770    1.7854131    1.7854210
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.800000 -0.500000  0.200000             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2569324   -0.2568225   -0.1052936   -0.1051936    0.1127097
+      0.1127924    0.2090703    0.2091729    0.6317515    0.6317883
+      0.6384390    0.6384859    0.8693712    0.8694220    0.8957647
+      0.8958040    0.8976411    0.8977071    1.1972775    1.1973306
+      1.2608234    1.2608750    1.3455511    1.3455857    1.5763616
+      1.5764097    1.6040124    1.6040758    1.6581201    1.6581688
+      1.7245179    1.7245264    1.7767729    1.7767766
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.811111 -0.500000  0.188889             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2528284   -0.2527184   -0.1062191   -0.1061175    0.1079086
+      0.1079897    0.2031329    0.2032336    0.6342771    0.6343142
+      0.6433376    0.6433845    0.8597368    0.8597876    0.8872591
+      0.8873024    0.9137148    0.9137861    1.2014779    1.2015358
+      1.2635006    1.2635534    1.3572977    1.3573375    1.5840647
+      1.5841149    1.6179120    1.6179721    1.6440626    1.6441138
+      1.7197267    1.7197313    1.7690895    1.7690898
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.822222 -0.500000  0.177778             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2485995   -0.2484892   -0.1074649   -0.1073617    0.1036751
+      0.1037546    0.1971708    0.1972697    0.6370588    0.6370962
+      0.6483184    0.6483653    0.8502240    0.8502745    0.8786574
+      0.8787014    0.9300956    0.9301671    1.2050361    1.2050981
+      1.2662811    1.2663351    1.3696906    1.3697349    1.5879595
+      1.5880146    1.6311046    1.6311578    1.6333922    1.6334412
+      1.7155115    1.7155131    1.7623041    1.7623062
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.833333 -0.500000  0.166667             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2442492   -0.2441387   -0.1090504   -0.1089458    0.1000313
+      0.1001094    0.1912005    0.1912976    0.6400927    0.6401304
+      0.6533824    0.6534294    0.8408864    0.8409365    0.8700958
+      0.8701403    0.9465834    0.9466551    1.2079701    1.2080355
+      1.2691731    1.2692283    1.3826055    1.3826534    1.5841807
+      1.5842432    1.6300625    1.6301076    1.6432377    1.6432815
+      1.7122616    1.7122738    1.7563752    1.7563787
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.010, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.844444 -0.500000  0.155556             
+      MATRIX SIZE=  128   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2397771   -0.2396665   -0.1109755   -0.1108695    0.0970004
+      0.0970772    0.1852406    0.1853359    0.6434373    0.6434752
+      0.6586169    0.6586639    0.8318047    0.8318543    0.8616288
+      0.8616738    0.9633108    0.9633825    1.2106839    1.2107521
+      1.2728181    1.2728749    1.3959484    1.3959996    1.5732140
+      1.5732817    1.6345069    1.6345486    1.6543541    1.6543795
+      1.7117470    1.7117788    1.7518043    1.7518079    1.8973968
+      1.8974214
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.025
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.855556 -0.500000  0.144444             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2351967   -0.2350860   -0.1132750   -0.1131677    0.0945766
+      0.0946522    0.1793030    0.1793966    0.6469594    0.6469978
+      0.6638434    0.6638904    0.8228609    0.8229101    0.8531965
+      0.8532419    0.9798889    0.9799607    1.2124088    1.2124791
+      1.2759622    1.2760203    1.4093908    1.4094441    1.5587231
+      1.5587934    1.6418746    1.6419140    1.6614899    1.6614918
+      1.7131557    1.7132110    1.7475621    1.7475652    1.8909258
+      1.8909538
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.013
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.002, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.866667 -0.500000  0.133333             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2305087   -0.2303977   -0.1159348   -0.1158262    0.0927685
+      0.0928431    0.1734058    0.1734977    0.6507148    0.6507536
+      0.6691444    0.6691914    0.8141336    0.8141825    0.8448500
+      0.8448957    0.9964506    0.9965225    1.2135497    1.2136216
+      1.2792623    1.2793217    1.4226504    1.4227047    1.5434412
+      1.5435124    1.6504262    1.6504632    1.6648001    1.6648207
+      1.7181407    1.7182183    1.7441603    1.7441619    1.8840078
+      1.8840385
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.877778 -0.500000  0.122222             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2257184   -0.2256072   -0.1189474   -0.1188378    0.0915694
+      0.0916432    0.1675648    0.1676552    0.6546955    0.6547347
+      0.6745091    0.6745561    0.8056387    0.8056872    0.8366013
+      0.8366472    1.0129508    1.0130227    1.2141042    1.2141772
+      1.2827431    1.2828039    1.4351000    1.4351524    1.5287462
+      1.5288156    1.6593766    1.6594106    1.6647537    1.6647887
+      1.7262045    1.7262960    1.7416334    1.7416344    1.8767271
+      1.8767597
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.022, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.888889 -0.500000  0.111111             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2208321   -0.2207208   -0.1222986   -0.1221881    0.0909657
+      0.0910389    0.1617961    0.1618848    0.6588926    0.6589321
+      0.6799204    0.6799674    0.7973979    0.7974460    0.8284624
+      0.8285086    1.0293384    1.0294104    1.2140578    1.2141316
+      1.2864362    1.2864984    1.4453568    1.4454002    1.5163090
+      1.5163693    1.6625072    1.6625496    1.6684105    1.6684407
+      1.7361024    1.7362006    1.7400369    1.7400416    1.8691615
+      1.8691951
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.025
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.900000 -0.500000  0.100000             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2158568   -0.2157452   -0.1259684   -0.1258571    0.0909371
+      0.0910098    0.1561154    0.1562026    0.6632827    0.6633227
+      0.6853039    0.6853509    0.7892600    0.7893077    0.8203979
+      0.8204442    1.0455473    1.0456193    1.2133830    1.2134573
+      1.2903714    1.2904349    1.4504551    1.4504732    1.5090393
+      1.5090740    1.6581330    1.6581796    1.6773349    1.6773600
+      1.7392872    1.7392971    1.7466746    1.7467754    1.8613832
+      1.8614168
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                         0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.024
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.026
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.911111 -0.500000  0.088889             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2107995   -0.2106877   -0.1299244   -0.1298126    0.0914618
+      0.0915343    0.1505391    0.1506248    0.6679115    0.6679519
+      0.6907097    0.6907567    0.7817327    0.7817798    0.8125184
+      0.8125649    1.0616170    1.0616888    1.2121711    1.2122455
+      1.2946191    1.2946840    1.4472674    1.4472858    1.5104637
+      1.5104657    1.6541160    1.6541648    1.6864678    1.6864867
+      1.7398856    1.7399025    1.7583167    1.7584186    1.8537968
+      1.8538297    1.8930070    1.8930126
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.012
+       CPTIME HAMILT=    0.022, DIAG=    0.025
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.922222 -0.500000  0.077778             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2056696   -0.2055576   -0.1341542   -0.1340418    0.0925055
+      0.0925780    0.1450834    0.1451677    0.6726855    0.6727264
+      0.6960095    0.6960564    0.7745228    0.7745696    0.8047912
+      0.8048378    1.0772719    1.0773437    1.2101041    1.2101784
+      1.2992273    1.2992935    1.4374309    1.4374741    1.5187158
+      1.5187429    1.6492953    1.6493460    1.6948994    1.6949107
+      1.7416249    1.7416501    1.7687382    1.7688386    1.8459149
+      1.8459443    1.8755362    1.8755396
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.025
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.026
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.933333 -0.500000  0.066667             
+      MATRIX SIZE=  130   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.2004776   -0.2003654   -0.1386192   -0.1385065    0.0940398
+      0.0941124    0.1397666    0.1398496    0.6775968    0.6776382
+      0.7010842    0.7011311    0.7678112    0.7678578    0.7972471
+      0.7972938    1.0928949    1.0929669    1.2071122    1.2071863
+      1.3043751    1.3044426    1.4245427    1.4245990    1.5302413
+      1.5302821    1.6439109    1.6439633    1.7031699    1.7031726
+      1.7448984    1.7449331    1.7783732    1.7784692    1.8379677
+      1.8379897    1.8588513    1.8588699    1.8955521    1.8956467
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.025
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.026
+       CPTIME Hsoset=    0.017, Horb=    0.000
+       CPTIME HAMILTabclm=    0.005
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.944444 -0.500000  0.055556             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.1952319   -0.1951195   -0.1432892   -0.1431762    0.0960319
+      0.0961048    0.1346037    0.1346853    0.6826577    0.6826996
+      0.7057188    0.7057656    0.7618922    0.7619385    0.7898924
+      0.7899391    1.1075978    1.1076697    1.2033832    1.2034570
+      1.3099601    1.3100289    1.4108532    1.4109161    1.5427871
+      1.5428350    1.6382120    1.6382660    1.7111332    1.7111390
+      1.7491855    1.7492295    1.7858575    1.7859420    1.8305184
+      1.8305262    1.8439932    1.8440400    1.8894248    1.8895212
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.025
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.026
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.002
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.955556 -0.500000  0.044444             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.1899453   -0.1898327   -0.1481332   -0.1480200    0.0984494
+      0.0985226    0.1296142    0.1296946    0.6878094    0.6878517
+      0.7095364    0.7095829    0.7571074    0.7571535    0.7827780
+      0.7828248    1.1216594    1.1217312    1.1987067    1.1987801
+      1.3161670    1.3162368    1.3971783    1.3972452    1.5554858
+      1.5555381    1.6320299    1.6320853    1.7191214    1.7191347
+      1.7546328    1.7546851    1.7892846    1.7893422    1.8220755
+      1.8220780    1.8344660    1.8345472    1.8828632    1.8829614
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.025
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.011, DIAG=    0.026
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.000, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.001
+
+     K=  0.966667 -0.500000  0.033333             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.1846313   -0.1845185   -0.1531212   -0.1530079    0.1012598
+      0.1013336    0.1248178    0.1248970    0.6929908    0.6930336
+      0.7119620    0.7120082    0.7540332    0.7540792    0.7759651
+      0.7760119    1.1349545    1.1350262    1.1929999    1.1930729
+      1.3230983    1.3231691    1.3839644    1.3840337    1.5678517
+      1.5679067    1.6252778    1.6253343    1.7274154    1.7274345
+      1.7610528    1.7611118    1.7863660    1.7863836    1.8116471
+      1.8116808    1.8337118    1.8338033    1.8758912    1.8759910
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.025
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.026
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.016
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.001, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.977778 -0.500000  0.022222             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.1793049   -0.1791920   -0.1582247   -0.1581114    0.1044313
+      0.1045057    0.1202358    0.1203138    0.6981038    0.6981471
+      0.7123946    0.7124402    0.7532703    0.7533164    0.7695532
+      0.7695999    1.1473569    1.1474286    1.1861905    1.1862631
+      1.3308545    1.3309259    1.3714716    1.3715424    1.5795895
+      1.5796464    1.6178485    1.6179060    1.7362939    1.7363171
+      1.7682242    1.7682880    1.7780467    1.7780582    1.8017366
+      1.8017941    1.8384411    1.8385389    1.8685496    1.8686506
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.025
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.026
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.017
+       wallTIME HAMILT=    0.002, DIAG=    0.004
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.000
+       wallTIME HAMILTextra=    0.000
+
+     K=  0.988889 -0.500000  0.011111             
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.1739836   -0.1738706   -0.1634163   -0.1633031    0.1079277
+      0.1080024    0.1158967    0.1159733    0.7029823    0.7030261
+      0.7106926    0.7107376    0.7549518    0.7549979    0.7637176
+      0.7637639    1.1587473    1.1588191    1.1782312    1.1783034
+      1.3395181    1.3395898    1.3598653    1.3599368    1.5905149
+      1.5905728    1.6096328    1.6096909    1.7459487    1.7459744
+      1.7673783    1.7674015    1.7759625    1.7760294    1.7927000
+      1.7927664    1.8454073    1.8455082    1.8609101    1.8610119
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+Computation time on process 0
+ Seclr4(Cholesky complete) :                        -0.000
+ Seclr4(Transform to eigenwertproblem) :             0.000
+ Seclr4(Compute eigenvalues) :                       0.012
+ Seclr4(Backtransform) :                             0.001
+ Seclr4(norm) :                                      0.000
+       CPTIME HAMILT=    0.023, DIAG=    0.013
+       CPTIME Hsoset=    0.005, Horb=    0.000
+       CPTIME HAMILTabclm=    0.004
+       wallTIME HAMILT=    0.003, DIAG=    0.003
+       wallTIME Hsoset=    0.002, Horb=    0.000
+       wallTIME HAMILTabclm=    0.001
+       wallTIME HAMILTextra=    0.000
+
+     K=  1.000000 -0.500000  0.000000   W         
+      MATRIX SIZE=  132   WEIGHT= 2.00
+     EIGENVALUES ARE:
+     -0.1688331   -0.1688331   -0.1684112   -0.1684112    0.1113380
+      0.1113380    0.1122815    0.1122815    0.7073373    0.7073373
+      0.7073836    0.7073836    0.7580931    0.7580931    0.7592948
+      0.7592949    1.1684987    1.1684987    1.1697086    1.1697086
+      1.3485457    1.3485457    1.3499116    1.3499116    1.6003566
+      1.6003567    1.6007740    1.6007741    1.7562511    1.7562511
+      1.7565804    1.7565804    1.7835598    1.7835598    1.7847886
+      1.7847886    1.8530168    1.8530169    1.8532938    1.8532938
+
+            0 EIGENVALUES BELOW THE ENERGY 
+       ********************************************************
+ TOTAL NUMBER OF K-POINTS:         101
+ read:  0.11694900000000530     
+ hmsec:   4.0794920000000019       0.58100000000558794     
+ write:  0.20429600000000114     
+ :TOTTIME:   4.5047810000000004     
+ :WALLTIME:  0.65100000001257285     

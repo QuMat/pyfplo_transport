@@ -1,0 +1,43 @@
+       Insulator, EF-inconsistency corrected
+:GAP (global)   :  0.043946 Ry =     0.598 eV (accurate value if proper k-mesh)
+:GAP (this spin):  0.043946 Ry =     0.598 eV (accurate value if proper k-mesh)
+         Bandranges (emin - emax) and occupancy:
+:BAN00001:   1   -0.483007   -0.182949  1.00000000
+:BAN00002:   2   -0.482917   -0.182840  1.00000000
+:BAN00003:   3   -0.174729    0.390313  1.00000000
+:BAN00004:   4   -0.174621    0.390362  1.00000000
+:BAN00005:   5    0.074207    0.393765  1.00000000
+:BAN00006:   6    0.074276    0.393804  1.00000000
+:BAN00007:   7    0.140284    0.393856  1.00000000
+:BAN00008:   8    0.140370    0.393919  1.00000000
+:BAN00009:   9    0.437865    0.646077  0.00000000
+:BAN00010:  10    0.437874    0.646111  0.00000000
+:BAN00011:  11    0.461857    0.818043  0.00000000
+:BAN00012:  12    0.461862    0.818100  0.00000000
+:BAN00013:  13    0.581563    1.090349  0.00000000
+        Energy to separate low and high energystates: -999.00000
+
+
+:NOE  : NUMBER OF ELECTRONS          =    8.000
+
+:FER  : F E R M I - ENERGY(TETRAH.M.)=   0.3939185478
+:GMA  : POTENTIAL AND CHARGE CUT-OFF  16.00 Ry**.5
+
+:POS001: ATOM   -1 X,Y,Z = 0.87500 0.37500 0.37500  MULT= 2  ZZ= 14.000  Si1       
+
+       LMMAX  8
+       LM=   0 0  2 0 -3 2  4 0  4 4 -5 2  6 0  6 4
+
+:CHA001: TOTAL VALENCE CHARGE INSIDE SPHERE   1 =   0.8857    (RMT=  2.0000 )
+:PCS001: PARTIAL CHARGES SPHERE =  1 S,P,D,F,PZ,PXY,,D-Z2,D-XY,D-X2Y2,D-XZ,YZ 
+:QTL001: 0.3785 0.4749 0.0301 0.0018 0.1583 0.3166 0.0000 0.0025 0.0084 0.0025 0.0167 0.0000
+        Q-s-low E-s-low   Q-p-low E-p-low   Q-d-low E-d-low   Q-f-low E-f-low
+:EPL001:  0.0000 10.0000    0.0000 10.0000    0.0000 10.0000    0.0000 10.0000
+        Q-s-hi  E-s-hi    Q-p-hi  E-p-hi    Q-d-hi  E-d-hi    Q-f-hi  E-f-hi 
+:EPH001:  0.3785 -0.1834    0.4749  0.1593    0.0301  0.1502    0.0018  0.0370
+:VZZ001: EFG INSIDE SPHERE   1 =    -0.000844      UP TO R =   2.00000
+
+:CHA  : TOTAL VALENCE CHARGE INSIDE UNIT CELL =       4.000000
+
+:SUM  : SUM OF EIGENVALUES =           0.087657680
+

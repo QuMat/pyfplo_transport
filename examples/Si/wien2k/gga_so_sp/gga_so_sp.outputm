@@ -1,0 +1,63 @@
+ filename of case.inc: gga_so_sp.incup
+ JATOM =            1   J =            1
+  ESX  =  -5.2169865127E+02 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -526.18740995600001        0.0000000000000000     
+ JATOM =            1   J =            2
+  ESX  =  -3.7758092918E+01 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -1047.8860612300000        0.0000000000000000     
+ JATOM =            1   J =            3
+  ESX  =  -2.4959686032E+01 OCC =   2.0000000000E+00  2.0000000000E+00
+   ESUM,EKIN =   -1085.6441541480001        0.0000000000000000     
+ JATOM =            1   J =            4
+  ESX  =  -4.9539500272E+01 OCC =   4.0000000000E+00  4.0000000000E+00
+   ESUM,EKIN =   -1110.6038401800001        0.0000000000000000     
+   ESUM =   -1160.1433404520001     
+  9. ITERATION
+
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RUP001:   1        3.705109        0.000000      943.123189      946.828298
+
+       DENSITY AT NUCLEUS
+        JATOM        VALENCE       SEMI-CORE          CORE           TOTAL
+:RDN001:   1        3.705411        0.000000      943.123203      946.828614
+
+       SPINDENSITIES AT THE NUCLEUS (THOMSON) FOR ATOM  1
+          VALENCE       SEMI-CORE            CORE           TOTAL
+             3.593866        0.000000      914.662516      918.256382
+             3.594158        0.000000      914.662529      918.256687
+ Allocating CLM-arrays            3  MB
+ Allocating nwav-arrays           0  MB
+ Allocating cfft-array            0  MB
+:NTO   : INTERSTITIAL     UP =     2.228537 DN =     2.228598 TOT =     4.457135
+
+:NEC01: NUCLEAR AND ELECTRONIC CHARGE     28.00000    27.99249
+:OTO   : INTERSTITIAL     UP =     2.233157 DN =     2.231877 TOT =     4.465034
+
+:NEC02: NUCLEAR AND ELECTRONIC CHARGE     28.00000    28.00000000
+
+ Allocating PS:            0  MB
+ Allocating SB, YUnPred, SPred:            0  MB
+ Allocating Y,S:           1  MB
+
+:MIX  :   MSE1   REGULARIZATION:  9.98E-04 GREED: 1.00000  Newton 1.00  1.0901                
+:CTO   : INTERSTITIAL     UP =     2.232367 DN =     2.232344 TOT =     4.464712
+
+:NEC03: NUCLEAR AND ELECTRONIC CHARGE     28.00000    28.00000000
+
+:ENE  : ********** TOTAL ENERGY IN Ry =        -1160.14334045
+
+  
+Time all        CPU  3.322E-01   Wall  6.500E-02 Threading   5.11 Nett  100.0 %
+Time to setup   CPU  1.014E-01   Wall  2.500E-02 Threading   4.05 Nett   38.5 %
+Time for MSEC   CPU  3.562E-02   Wall  5.000E-03 Threading   7.12 Nett    7.7 %
+Time for Hist   CPU  1.081E-02   Wall  2.000E-03 Threading   5.40 Nett    3.1 %
+Time for MSEC 1 CPU  1.030E-03   Wall  0.000E+00 Threading  10.30 Nett    0.0 %
+Time for MSEC 2 CPU  2.237E-03   Wall  1.000E-03 Threading   2.24 Nett    1.5 %
+Time for MSEC 3 CPU  3.746E-03   Wall  1.000E-03 Threading   3.75 Nett    1.5 %
+Time for MSEC 4 CPU  1.960E-03   Wall  0.000E+00 Threading  19.60 Nett    0.0 %
+Time for MSEC 6 CPU  1.368E-03   Wall  1.000E-03 Threading   1.37 Nett    1.5 %
+Time for MSEC 7 CPU  2.130E-04   Wall  0.000E+00 Threading   2.13 Nett    0.0 %
+Time in Trust   CPU  1.120E-04   Wall  0.000E+00 Threading   1.12 Nett    0.0 %
+Time for output CPU  1.952E-01   Wall  3.500E-02 Threading   5.58 Nett   53.8 %

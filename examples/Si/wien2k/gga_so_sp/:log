@@ -1,0 +1,96 @@
+>   (init_lapw) options: -h
+>   (init_lapw) options: -sp
+Fri Jun 30 23:05:12 -03 2023> (x) nn
+Fri Jun 30 23:05:12 -03 2023> (x) sgroup
+Fri Jun 30 23:05:12 -03 2023> (x) symmetry
+Fri Jun 30 23:05:12 -03 2023> (x) lstart -d
+Fri Jun 30 23:05:12 -03 2023> (x_lapw) kgen -d
+Fri Jun 30 23:05:12 -03 2023> (x) dstart -p
+Fri Jun 30 23:05:12 -03 2023> (x) dstart -up -p
+Fri Jun 30 23:05:12 -03 2023> (x) dstart -dn -p
+>   (init_so_lapw) options: 
+Fri Jun 30 23:05:47 -03 2023> (x_lapw) symmetso
+Fri Jun 30 23:05:57 -03 2023> (x) kgen -d
+>   (runsp_lapw) options: -so
+Fri Jun 30 23:06:14 -03 2023> (x) lapw0
+Fri Jun 30 23:06:15 -03 2023> (x) lapw1 -up
+Fri Jun 30 23:06:19 -03 2023> (x) lapw1 -dn
+Fri Jun 30 23:06:23 -03 2023> (x) lapwso -up
+Fri Jun 30 23:06:25 -03 2023> (x) lapw2 -up -c -so
+Fri Jun 30 23:06:26 -03 2023> (x) lapw2 -dn -c -so
+Fri Jun 30 23:06:28 -03 2023> (x) lcore -up
+Fri Jun 30 23:06:28 -03 2023> (x) lcore -dn
+Fri Jun 30 23:06:28 -03 2023> (x) mixer
+Fri Jun 30 23:06:28 -03 2023> (x) lapw0
+Fri Jun 30 23:06:29 -03 2023> (x) lapw1 -up
+Fri Jun 30 23:06:34 -03 2023> (x) lapw1 -dn
+Fri Jun 30 23:06:38 -03 2023> (x) lapwso -up
+Fri Jun 30 23:06:40 -03 2023> (x) lapw2 -up -c -so
+Fri Jun 30 23:06:41 -03 2023> (x) lapw2 -dn -c -so
+Fri Jun 30 23:06:42 -03 2023> (x) lcore -up
+Fri Jun 30 23:06:43 -03 2023> (x) lcore -dn
+Fri Jun 30 23:06:43 -03 2023> (x) mixer
+Fri Jun 30 23:06:43 -03 2023> (x) lapw0
+Fri Jun 30 23:06:44 -03 2023> (x) lapw1 -up
+Fri Jun 30 23:06:49 -03 2023> (x) lapw1 -dn
+Fri Jun 30 23:06:54 -03 2023> (x) lapwso -up
+Fri Jun 30 23:06:56 -03 2023> (x) lapw2 -up -c -so
+Fri Jun 30 23:06:57 -03 2023> (x) lapw2 -dn -c -so
+Fri Jun 30 23:06:59 -03 2023> (x) lcore -up
+Fri Jun 30 23:06:59 -03 2023> (x) lcore -dn
+Fri Jun 30 23:06:59 -03 2023> (x) mixer
+Fri Jun 30 23:06:59 -03 2023> (x) lapw0
+Fri Jun 30 23:07:00 -03 2023> (x) lapw1 -up
+Fri Jun 30 23:07:05 -03 2023> (x) lapw1 -dn
+Fri Jun 30 23:07:10 -03 2023> (x) lapwso -up
+Fri Jun 30 23:07:12 -03 2023> (x) lapw2 -up -c -so
+Fri Jun 30 23:07:14 -03 2023> (x) lapw2 -dn -c -so
+Fri Jun 30 23:07:15 -03 2023> (x) lcore -up
+Fri Jun 30 23:07:15 -03 2023> (x) lcore -dn
+Fri Jun 30 23:07:15 -03 2023> (x) mixer
+Fri Jun 30 23:07:15 -03 2023> (x) lapw0
+Fri Jun 30 23:07:16 -03 2023> (x) lapw1 -up
+Fri Jun 30 23:07:21 -03 2023> (x) lapw1 -dn
+Fri Jun 30 23:07:26 -03 2023> (x) lapwso -up
+Fri Jun 30 23:07:28 -03 2023> (x) lapw2 -up -c -so
+Fri Jun 30 23:07:30 -03 2023> (x) lapw2 -dn -c -so
+Fri Jun 30 23:07:31 -03 2023> (x) lcore -up
+Fri Jun 30 23:07:31 -03 2023> (x) lcore -dn
+Fri Jun 30 23:07:31 -03 2023> (x) mixer
+Fri Jun 30 23:07:31 -03 2023> (x) lapw0
+Fri Jun 30 23:07:32 -03 2023> (x) lapw1 -up
+Fri Jun 30 23:07:37 -03 2023> (x) lapw1 -dn
+Fri Jun 30 23:07:42 -03 2023> (x) lapwso -up
+Fri Jun 30 23:07:44 -03 2023> (x) lapw2 -up -c -so
+Fri Jun 30 23:07:46 -03 2023> (x) lapw2 -dn -c -so
+Fri Jun 30 23:07:47 -03 2023> (x) lcore -up
+Fri Jun 30 23:07:47 -03 2023> (x) lcore -dn
+Fri Jun 30 23:07:47 -03 2023> (x) mixer
+Fri Jun 30 23:07:47 -03 2023> (x) lapw0
+Fri Jun 30 23:07:49 -03 2023> (x) lapw1 -up
+Fri Jun 30 23:07:53 -03 2023> (x) lapw1 -dn
+Fri Jun 30 23:07:58 -03 2023> (x) lapwso -up
+Fri Jun 30 23:08:02 -03 2023> (x) lapw2 -up -c -so
+Fri Jun 30 23:08:05 -03 2023> (x) lapw2 -dn -c -so
+Fri Jun 30 23:08:08 -03 2023> (x) lcore -up
+Fri Jun 30 23:08:08 -03 2023> (x) lcore -dn
+Fri Jun 30 23:08:08 -03 2023> (x) mixer
+Fri Jun 30 23:08:08 -03 2023> (x) lapw0
+Fri Jun 30 23:08:10 -03 2023> (x) lapw1 -up
+Fri Jun 30 23:08:21 -03 2023> (x) lapw1 -dn
+Fri Jun 30 23:08:32 -03 2023> (x) lapwso -up
+Fri Jun 30 23:08:36 -03 2023> (x) lapw2 -up -c -so
+Fri Jun 30 23:08:39 -03 2023> (x) lapw2 -dn -c -so
+Fri Jun 30 23:08:42 -03 2023> (x) lcore -up
+Fri Jun 30 23:08:42 -03 2023> (x) lcore -dn
+Fri Jun 30 23:08:42 -03 2023> (x) mixer
+Fri Jun 30 23:13:43 -03 2023> (x) lapw1 -up -band
+Fri Jun 30 23:13:49 -03 2023> (x) lapw1 -dn -band
+Fri Jun 30 23:13:55 -03 2023> (x) lapwso -band
+Fri Jun 30 23:13:59 -03 2023> (x) lapwso
+Fri Jun 30 23:14:14 -03 2023> (x) lapwso -up -band
+Fri Jun 30 23:14:29 -03 2023> (x) spaghetti -so -up
+Fri Jun 30 23:14:34 -03 2023> (x) spaghetti -up
+Fri Jun 30 23:14:37 -03 2023> (x) spaghetti -so -up
+Fri Jun 30 23:14:40 -03 2023> (x) spaghetti -so -dn
+Fri Jun 30 23:21:53 -03 2023> (x) findbands -so -dn -emin -10 -emax 20

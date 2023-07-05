@@ -1,0 +1,11 @@
+
+
+    start 	(lun 03 jul 2023 11:28:02 -03) 
+>   kgen -fbz	(11:28:02) 
+>   findbands -so -up -all -15 15	(11:28:15) 
+>   write_inwf -f test3 -up	(11:28:20) 
+>   write_win  -up	(11:30:00) 
+>   wannier90 -pp	(11:30:17) init_w2w finished
+
+
+   stop

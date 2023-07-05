@@ -1,0 +1,60 @@
+ Euler-Maclaurian Coulomb
+ Consistent 3/8+Simpson combinations at start/end
+ New Mode for Coulomb Integral
+ Extension of core to zero
+ LDM version in phi
+ Fifth-order quadrature in outwin
+ Lebedev-Laikov Grid in lapw0
+
+
+            ---------
+:ITE009:  9. ITERATION
+            ---------
+
+:NATO :    1 INDEPENDENT AND    2 TOTAL ATOMS IN UNITCELL
+       SUBSTANCE: blebleble                                s-o calc. M||  0.00
+
+       LATTICE                      = F   
+:LAT  : LATTICE CONSTANTS= 10.28711 10.28711 10.28711    1.571    1.571    1.571
+:VOL  : UNIT CELL VOLUME =     272.15717
+:POT  : POTENTIAL OPTION EX_PBE EC_PBE VX_PBE VC_PBE
+       MODE OF CALCULATION IS       = RELA
+       SPINPOLARIZED CALCULATION
+:IFFT  : FFT-parameters:  108  108  108 Factor: 2.00
+
+
+   CONVERGENCE PARAMETER FOR PSEUDOCHARGE: NCON=  9
+   MAXIMAL VALUE OF RMT(JATOM)*ABSK(NKK) : RK  =31.94807
+
+
+:VKCOUL :  VK-COUL convergence: 0.598E-09
+ Lebedev grid of          350
+ :rho_min:   2.0000000000000000E-008   1.0000000000000001E-009
+:VCOUL001 ATOMNUMBER=  1 Si1     VCOUL-ZERO =  0.10305E-01
+:EFG001:                        EFG         =     0.00151   *10**21  V / m**2
+                               V20  TOT/SRF=     0.00130     0.00003
+                               V22  TOT/SRF=     0.00000     0.00000
+                               V22M TOT/SRF=     0.00000     0.00000
+                               V21  TOT/SRF=     0.00000     0.00000
+                               V21M TOT/SRF=     0.00000     0.00000
+
+             -0.00075    0.00000    0.00000       -0.00075    0.00000    0.00000
+              0.00000   -0.00075    0.00000        0.00000   -0.00075    0.00000
+              0.00000    0.00000    0.00151        0.00000    0.00000    0.00151
+
+         MAIN DIRECTIONS OF THE EFG   1.0000 -0.0000  0.0000
+                                      0.0000  1.0000  0.0000
+                                      0.0000  0.0000  1.0000
+:ANG001:  ANGLE WITH OLD X-AXIS =         0.0
+
+:ETA001:                         ASYMM. ETA =     0.00000
+
+
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1736264E-02
+:FIT001: LUSE= 13 SIGMA OF V-XC FIT FOR ATOM  1  0.1728716E-02
+:DEN  : DENSITY INTEGRAL  =          -526.36230047   (Ry)
+       ELS_POTENTIAL_AT Z=0 and Z=0.5:   0.15555   0.15555
+       ELS_POTENTIAL_AT Y=0 and Y=0.5:   0.31110   0.31110
+:VZERO:v0,v0c,v0x  -0.51998   0.15555  -0.67553 v5,v5c,v5x  -0.51998   0.15555  -0.67553
+:VZERY:v0,v0c,v0x  -0.36945   0.31110  -0.68055 v5,v5c,v5x  -0.36945   0.31110  -0.68055
+:VZERX:v0,v0c,v0x  -0.67063   0.00000  -0.67063 v5,v5c,v5x  -0.67063   0.00000  -0.67063

@@ -1,0 +1,137 @@
+
+Calculating gga_so_sp in /home/facioj/QuMat/FeSe_HT/Si/wien2k/gga_so_sp
+on facioj with PID 153428
+using WIEN2k_23.2 (Release 9/3/2022) in /home/facioj/WIEN
+
+
+    start 	(Fri Jun 30 23:06:14 -03 2023) with lapw0 (40/99 to go)
+
+    cycle 1 	(Fri Jun 30 23:06:14 -03 2023) 	(40/99 to go)
+
+>   lapw0      	(23:06:14) 2.423u 0.396s 0:00.84 334.5%	0+0k 0+1184io 0pf+0w
+>   lapw1  -up      	(23:06:15) 16.482u 8.383s 0:03.99 623.0%	0+0k 0+43432io 2pf+0w
+>   lapw1  -dn      	(23:06:19) 16.533u 8.072s 0:04.00 615.0%	0+0k 0+41912io 1pf+0w
+>   lapwso -up     	(23:06:23) 8.228u 3.177s 0:01.65 690.3%	0+0k 0+86984io 7pf+0w
+>   lapw2 -up      -c -so   	(23:06:25) 2.440u 2.967s 0:01.66 325.3%	0+0k 0+2168io 0pf+0w
+>   lapw2 -dn      -c -so   	(23:06:26) 2.102u 2.117s 0:01.32 318.9%	0+0k 0+2168io 1pf+0w
+>   lcore -up    	(23:06:28) 0.008u 0.000s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   lcore -dn    	(23:06:28) 0.008u 0.000s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   mixer   	(23:06:28) 0.283u 0.224s 0:00.11 454.5%	0+0k 0+2704io 0pf+0w
+:ENERGY convergence:  0 0.0001 0
+:CHARGE convergence:  0 0.0000 0
+:STRESS convergence:  0 0.0 0 YY
+ec cc fc and str_conv 0 1 1 1
+
+    cycle 2 	(Fri Jun 30 23:06:28 -03 2023) 	(39/98 to go)
+
+>   lapw0      	(23:06:28) 2.694u 0.363s 0:00.95 321.0%	0+0k 0+1176io 1pf+0w
+>   lapw1  -up      	(23:06:29) 18.618u 10.227s 0:04.98 578.9%	0+0k 0+42280io 5pf+0w
+>   lapw1  -dn      	(23:06:34) 16.778u 8.735s 0:04.13 617.4%	0+0k 0+40840io 4pf+0w
+>   lapwso -up     	(23:06:38) 8.460u 3.203s 0:01.67 698.2%	0+0k 0+85968io 3pf+0w
+>   lapw2 -up      -c -so   	(23:06:40) 2.117u 2.114s 0:01.35 312.5%	0+0k 0+2112io 1pf+0w
+>   lapw2 -dn      -c -so   	(23:06:41) 1.984u 2.108s 0:01.31 311.4%	0+0k 0+2112io 1pf+0w
+>   lcore -up    	(23:06:42) 0.008u 0.004s 0:00.01 0.0%	0+0k 0+152io 0pf+0w
+>   lcore -dn    	(23:06:43) 0.012u 0.000s 0:00.01 100.0%	0+0k 0+152io 0pf+0w
+>   mixer   	(23:06:43) 0.117u 0.085s 0:00.04 475.0%	0+0k 0+2480io 0pf+0w
+:ENERGY convergence:  0 0.0001 0
+:CHARGE convergence:  0 0.0000 0
+:STRESS convergence:  0 0.0 0 YY
+ec cc fc and str_conv 0 1 1 1
+
+    cycle 3 	(Fri Jun 30 23:06:43 -03 2023) 	(38/97 to go)
+
+>   lapw0      	(23:06:43) 2.765u 0.360s 0:00.94 331.9%	0+0k 0+1160io 0pf+0w
+>   lapw1  -up      	(23:06:44) 19.498u 10.428s 0:04.85 616.7%	0+0k 0+41904io 2pf+0w
+>   lapw1  -dn      	(23:06:49) 21.116u 10.736s 0:05.25 606.4%	0+0k 0+40640io 2pf+0w
+>   lapwso -up     	(23:06:54) 9.613u 3.549s 0:01.89 695.7%	0+0k 0+85656io 6pf+0w
+>   lapw2 -up      -c -so   	(23:06:56) 2.325u 2.513s 0:01.51 319.8%	0+0k 0+2104io 1pf+0w
+>   lapw2 -dn      -c -so   	(23:06:57) 2.324u 2.328s 0:01.47 315.6%	0+0k 0+2104io 2pf+0w
+>   lcore -up    	(23:06:59) 0.008u 0.004s 0:00.01 0.0%	0+0k 0+152io 0pf+0w
+>   lcore -dn    	(23:06:59) 0.007u 0.003s 0:00.01 0.0%	0+0k 0+152io 0pf+0w
+>   mixer   	(23:06:59) 0.121u 0.076s 0:00.04 475.0%	0+0k 0+2480io 1pf+0w
+:ENERGY convergence:  0 0.0001 .0234183350000000
+:CHARGE convergence:  0 0.0000 .2477491
+:STRESS convergence:  0 0.0 0 YY
+ec cc fc and str_conv 0 1 1 1
+
+    cycle 4 	(Fri Jun 30 23:06:59 -03 2023) 	(37/96 to go)
+
+>   lapw0      	(23:06:59) 2.751u 0.370s 0:00.97 321.6%	0+0k 0+1184io 0pf+0w
+>   lapw1  -up      	(23:07:00) 20.110u 10.454s 0:04.95 617.3%	0+0k 0+41608io 2pf+0w
+>   lapw1  -dn      	(23:07:05) 20.421u 10.320s 0:04.98 617.2%	0+0k 0+40712io 3pf+0w
+>   lapwso -up     	(23:07:10) 9.443u 3.691s 0:01.89 694.7%	0+0k 0+85016io 5pf+0w
+>   lapw2 -up      -c -so   	(23:07:12) 2.322u 2.506s 0:01.50 321.3%	0+0k 0+2152io 1pf+0w
+>   lapw2 -dn      -c -so   	(23:07:14) 2.322u 2.306s 0:01.45 318.6%	0+0k 0+2136io 1pf+0w
+>   lcore -up    	(23:07:15) 0.006u 0.003s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   lcore -dn    	(23:07:15) 0.008u 0.000s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   mixer   	(23:07:15) 0.103u 0.104s 0:00.04 500.0%	0+0k 0+2496io 1pf+0w
+:ENERGY convergence:  0 0.0001 .0736288150000000
+:CHARGE convergence:  0 0.0000 .1716256
+:STRESS convergence:  0 0.0 0 YY
+ec cc fc and str_conv 0 1 1 1
+
+    cycle 5 	(Fri Jun 30 23:07:15 -03 2023) 	(36/95 to go)
+
+>   lapw0      	(23:07:15) 2.849u 0.337s 0:00.96 330.2%	0+0k 0+1160io 1pf+0w
+>   lapw1  -up      	(23:07:16) 20.343u 10.217s 0:04.95 617.1%	0+0k 0+41192io 3pf+0w
+>   lapw1  -dn      	(23:07:21) 20.162u 10.302s 0:04.81 633.2%	0+0k 0+40944io 3pf+0w
+>   lapwso -up     	(23:07:26) 9.881u 3.744s 0:01.95 698.4%	0+0k 0+84344io 6pf+0w
+>   lapw2 -up      -c -so   	(23:07:28) 2.476u 2.393s 0:01.52 319.7%	0+0k 0+2128io 1pf+0w
+>   lapw2 -dn      -c -so   	(23:07:30) 2.207u 2.396s 0:01.45 316.5%	0+0k 0+2128io 2pf+0w
+>   lcore -up    	(23:07:31) 0.011u 0.000s 0:00.01 100.0%	0+0k 0+200io 0pf+0w
+>   lcore -dn    	(23:07:31) 0.008u 0.000s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   mixer   	(23:07:31) 0.114u 0.084s 0:00.04 475.0%	0+0k 0+2496io 2pf+0w
+:ENERGY convergence:  0 0.0001 .0935437000000000
+:CHARGE convergence:  0 0.0000 .0535252
+:STRESS convergence:  0 0.0 0 YY
+ec cc fc and str_conv 0 1 1 1
+
+    cycle 6 	(Fri Jun 30 23:07:31 -03 2023) 	(35/94 to go)
+
+>   lapw0      	(23:07:31) 2.786u 0.344s 0:00.96 325.0%	0+0k 0+1160io 1pf+0w
+>   lapw1  -up      	(23:07:32) 20.254u 10.299s 0:04.94 618.2%	0+0k 0+41064io 4pf+0w
+>   lapw1  -dn      	(23:07:37) 20.543u 10.373s 0:05.00 618.2%	0+0k 0+41064io 3pf+0w
+>   lapwso -up     	(23:07:42) 9.323u 3.550s 0:01.85 695.6%	0+0k 0+83880io 2pf+0w
+>   lapw2 -up      -c -so   	(23:07:44) 2.436u 2.396s 0:01.51 319.2%	0+0k 0+2152io 0pf+0w
+>   lapw2 -dn      -c -so   	(23:07:46) 2.322u 2.258s 0:01.45 315.1%	0+0k 0+2128io 1pf+0w
+>   lcore -up    	(23:07:47) 0.004u 0.004s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   lcore -dn    	(23:07:47) 0.009u 0.000s 0:00.00 0.0%	0+0k 0+200io 0pf+0w
+>   mixer   	(23:07:47) 0.133u 0.078s 0:00.04 500.0%	0+0k 0+2496io 0pf+0w
+:ENERGY convergence:  0 0.0001 .0404942750000000
+:CHARGE convergence:  0 0.0000 .0071686
+:STRESS convergence:  0 0.0 0 YY
+ec cc fc and str_conv 0 1 1 1
+
+    cycle 7 	(Fri Jun 30 23:07:47 -03 2023) 	(34/93 to go)
+
+>   lapw0      	(23:07:47) 2.975u 0.352s 0:01.01 328.7%	0+0k 0+1160io 0pf+0w
+>   lapw1  -up      	(23:07:48) 20.243u 10.079s 0:04.90 618.5%	0+0k 0+41168io 1pf+0w
+>   lapw1  -dn      	(23:07:53) 20.842u 10.134s 0:05.01 618.1%	0+0k 0+41184io 1pf+0w
+>   lapwso -up     	(23:07:58) 15.938u 6.116s 0:03.16 697.4%	0+0k 0+83936io 4pf+0w
+>   lapw2 -up      -c -so   	(23:08:02) 5.250u 5.503s 0:03.30 325.7%	0+0k 0+2144io 0pf+0w
+>   lapw2 -dn      -c -so   	(23:08:05) 4.541u 4.669s 0:02.88 319.4%	0+0k 0+2136io 1pf+0w
+>   lcore -up    	(23:08:08) 0.010u 0.003s 0:00.01 100.0%	0+0k 0+200io 0pf+0w
+>   lcore -dn    	(23:08:08) 0.010u 0.003s 0:00.01 100.0%	0+0k 0+200io 0pf+0w
+>   mixer   	(23:08:08) 0.172u 0.160s 0:00.06 550.0%	0+0k 0+2496io 1pf+0w
+:ENERGY convergence:  0 0.0001 .0046146750000000
+:CHARGE convergence:  0 0.0000 .0034734
+:STRESS convergence:  0 0.0 0 YY
+ec cc fc and str_conv 0 1 1 1
+
+    cycle 8 	(Fri Jun 30 23:08:08 -03 2023) 	(33/92 to go)
+
+>   lapw0      	(23:08:08) 4.510u 0.400s 0:01.64 299.3%	0+0k 0+1160io 2pf+0w
+>   lapw1  -up      	(23:08:10) 44.544u 22.222s 0:10.83 616.4%	0+0k 0+41176io 3pf+0w
+>   lapw1  -dn      	(23:08:21) 44.728u 22.604s 0:10.93 615.9%	0+0k 0+41200io 2pf+0w
+>   lapwso -up     	(23:08:32) 20.193u 7.591s 0:03.99 696.2%	0+0k 0+83880io 3pf+0w
+>   lapw2 -up      -c -so   	(23:08:36) 4.718u 4.866s 0:02.97 322.2%	0+0k 0+2144io 0pf+0w
+>   lapw2 -dn      -c -so   	(23:08:39) 4.136u 4.456s 0:02.69 318.9%	0+0k 0+2128io 1pf+0w
+>   lcore -up    	(23:08:42) 0.013u 0.000s 0:00.01 100.0%	0+0k 0+200io 0pf+0w
+>   lcore -dn    	(23:08:42) 0.008u 0.004s 0:00.01 0.0%	0+0k 0+200io 0pf+0w
+>   mixer   	(23:08:42) 0.210u 0.126s 0:00.06 550.0%	0+0k 0+2496io 1pf+0w
+:ENERGY convergence:  1 0.0001 .0000793200000000
+:CHARGE convergence:  0 0.0000 .0002569
+:STRESS convergence:  0 0.0 0 YY
+ec cc fc and str_conv 1 1 1 1
+
+>   stop

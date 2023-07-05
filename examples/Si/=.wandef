@@ -1,0 +1,431 @@
+
+doit
+
+coefficients_format bin
+
+#save_spin_info
+
+#save_bfield
+
+#save_position
+
+gradorder 1
+
+#opendx_interface
+
+keeprunning on
+
+
+---- real space grid for pictures of WFs ---------------------
+
+WF_grid_basis conv
+WF_grid_directions 1 0 0
+                   0 1 0
+                   0 0 1
+
+
+
+WF_grid_subdivision  1 1 1
+
+#WF_grid_origin    -0.5 -0.5 -0.5
+
+
+
+
+
+-------------------------------------------------
+
+do_WF_in_real_space on
+
+ham_cutoff 27
+WF_ham_threshold 0.0005
+
+WF_coeff_threshold 0.001
+
+WF_write_coeff_stats on
+ham_write_t_stats on
+print_T on
+
+
+----- ham export grid --------
+
+k_grid_basis prim
+k_grid_directions       1 0 0 
+                        0 1 0
+                        0 0 1
+k_grid_subdivision  1 1 1
+k_grid_incl_periodic_points off
+
+
+automode none
+
+
+------------------------------------------------------------------------
+--------------------------------------------------
+wandef
+    on
+    name Si1 3s+0up
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 1
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3s+0up
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si1 3s+0dn
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 1
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3s+0dn
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si1 3p-1up
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 1
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p-1up
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si1 3p-1dn
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 1
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p-1dn
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si1 3p+0up
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 1
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p+0up
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si1 3p+0dn
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 1
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p+0dn
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si1 3p+1up
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 1
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p+1up
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si1 3p+1dn
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 1
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p+1dn
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si2 3s+0up
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 2
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3s+0up
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si2 3s+0dn
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 2
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3s+0dn
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si2 3p-1up
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 2
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p-1up
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si2 3p-1dn
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 2
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p-1dn
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si2 3p+0up
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 2
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p+0up
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si2 3p+0dn
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 2
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p+0dn
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si2 3p+1up
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 2
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p+1up
+        fac 1.0 0.0
+
+--------------------------------------------------
+wandef
+    on
+    name Si2 3p+1dn
+    emin -13 -13
+    emax 0 0
+    de 1 1
+    delower 1 1
+    deupper 5 5
+    fmin -100 -100
+    fmax 100 100
+    fdelower 1 1
+    fdeupper 1 1
+    fheight 0 0
+    contrib
+        site 2
+        difvec 0.0 0.0 0.0
+        xaxis 1 0 0
+        zaxis 0 0 1
+        sxaxis qua
+        orb 3p+1dn
+        fac 1.0 0.0
+
