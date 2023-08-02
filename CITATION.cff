@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: pyfplo_transport
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: M. Lourdes
+    family-names: Amigo
+    affiliation: 'CONICET, Argentina'
+  - given-names: Jorge I.
+    family-names: Facio
+    affiliation: 'CONICET, Argentina'
+repository-code: 'https://github.com/QuMat/pyfplo_transport'
+abstract: >-
+  Here we compute transport properties in the Boltzmann
+  approximation and in the relaxation time approximation
+  starting from Wannier Hamiltonians in the pyFPLO format.
+version: '1.0'
+date-released: '2023-07-01'
